@@ -15,7 +15,7 @@ By running 500 simulations for every game based on various regressions, WRECK_EM
 Instructions to set up and run WRECK_EM will go here, including any dependencies, how to clone the repository, and steps to run the model.
 
 ## Data Sources
-- NCAA Quad Win Statistics: [NCAA]([https://www.ncaa.com/](https://stats.ncaa.org/selection_rankings/nitty_gritties))
+- NCAA Quad Win Statistics: [NCAA]([https://www.ncaa.com/](https://stats.ncaa.org/selection_rankings/nitty_gritties).
 - KenPom Efficiency Scores: [KenPom](https://kenpom.com/)
 
 Please note, KenPom efficiency scores are proprietary and require a subscription to access.
