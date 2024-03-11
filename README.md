@@ -6,8 +6,8 @@ Welcome to the WRECK_EM repository, a predictive model named in honor of Texas T
 ## Model Description
 WRECK_EM is rooted in the ELO ranking system, a method for calculating the relative skill levels of players in competitor-versus-competitor games. Our model adapts this system to the dynamic and competitive world of NCAA Men's Basketball by incorporating:
 
-- **NCAA Quad Wins Statistics**: A key metric reflecting the quality of wins based on the location and opponent's ranking.
-- **KenPom Efficiency Scores**: Critical for assessing the offensive and defensive efficiency of teams, available at [KenPom](https://kenpom.com/).
+- **NCAA Quad Wins Statistics**: A key metric reflecting the quality of wins based on the location and opponent's ranking, available [here.][NCAA]([https://www.ncaa.com/](https://stats.ncaa.org/selection_rankings/nitty_gritties).
+- **KenPom Efficiency Scores**: Critical for assessing the offensive and defensive efficiency of teams, available [here.](https://kenpom.com/).
 
 By running 500 simulations for every game based on various regressions, WRECK_EM aims to provide a detailed probabilistic forecast for each matchup.
 
