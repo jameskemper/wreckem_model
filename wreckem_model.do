@@ -348,7 +348,7 @@ save `wreckem_predictions', replace
 
 sort predicted_winner date
 duplicates drop predicted_winner date, force
-sort date teamconf
+sort date team
 
 
 * Export predictions
