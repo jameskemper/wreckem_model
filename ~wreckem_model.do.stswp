@@ -326,7 +326,12 @@ gen predicted_winner = team
 replace predicted_winner = oppteam if mean_simulated_differential <0
 
 gen percentage_sim_win = percentage_team_wins if predicted_winner == team
-replace percentage_sim_win = percentage_team_wins if predicted_winner == oppteam
+replace percentage_sim_win = percentage_opp_wins if percentage_opp_wins > percentage_team_wins
+
+* Convert the proportion to a percentage and then to a string with a "%" sign and rename correctly
+generate string_percentage_opp_win = string(percentage_opp_win * 100, "%9.1f") + "%"
+rename percentage_sim_win predict_sim_win_percent
+rename string_percentage_opp_win percentage_sim_win
 
 * Generate prediction message
 
@@ -346,7 +351,7 @@ tempfile `wreckem_predictions'
 save `wreckem_predictions', replace
 
 * Export predictions
-export delimited using "\\myweb.ttu.edu\users\jkemper\Projects\NCAA_predictions.csv", replace
+export delimited using "C:\Users\jkemper\OneDrive - Texas Tech University\Git\wreckem_model\Data\Predictions\predictions.csv", replace
 
 * Get the current date in Stata's internal format
 local cdate = date(c(current_date), "DMY")
