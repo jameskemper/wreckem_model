@@ -328,11 +328,6 @@ replace predicted_winner = oppteam if mean_simulated_differential <0
 gen percentage_sim_win = percentage_team_wins
 replace percentage_sim_win = percentage_opp_wins if percentage_opp_wins > percentage_team_wins
 
-* Convert the proportion to a percentage and then to a string with a "%" sign and rename correctly
-generate string_percentage_opp_win = string(percentage_opp_win * 100, "%9.1f") + "%"
-rename percentage_sim_win predict_sim_win_percent
-rename string_percentage_opp_win percentage_sim_win
-
 * Generate prediction message
 
 gen threshold = " by more than 10 points."
