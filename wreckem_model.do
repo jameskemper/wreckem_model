@@ -308,7 +308,7 @@ forvalues i = 1/500 {
 }
 
 * Create percentage winning team wins simulations 
-gen percentage_sim_win = (teamwins / 500)
+gen percentage_sim_win = (teamwins / 500) if (simulated_differential`i' > 0)
 replace percentage_sim_win = (oppwins / 500) if (simulated_differential`i' < 0)
 format %9.2f percentage_sim_win
 
