@@ -325,13 +325,13 @@ gen percentage_opp_wins = oppwins / 500
 gen predicted_winner = team
 replace predicted_winner = oppteam if mean_simulated_differential <0
 
-gen percentage_sim_win = percentage_team_wins if predicted_winner == team
+gen percentage_sim_win = percentage_team_wins
 replace percentage_sim_win = percentage_opp_wins if percentage_opp_wins > percentage_team_wins
 
 * Convert the proportion to a percentage and then to a string with a "%" sign and rename correctly
-generate string_percentage_opp_win = string(percentage_opp_win * 100, "%9.1f") + "%"
+generate string_percentage = string(percentage_sim_win * 100, "%9.1f") + "%"
 rename percentage_sim_win predict_sim_win_percent
-rename string_percentage_opp_win percentage_sim_win
+rename string_percentage percentage_sim_win
 
 * Generate prediction message
 

@@ -325,7 +325,7 @@ gen percentage_opp_wins = oppwins / 500
 gen predicted_winner = team
 replace predicted_winner = oppteam if mean_simulated_differential <0
 
-gen percentage_sim_win = percentage_team_wins if predicted_winner == team
+gen percentage_sim_win = percentage_team_wins
 replace percentage_sim_win = percentage_opp_wins if percentage_opp_wins > percentage_team_wins
 
 * Convert the proportion to a percentage and then to a string with a "%" sign and rename correctly
