@@ -1,27 +1,4 @@
 date,team,teamid,teamconf,teamconfid,oppteam,oppteamid,oppteamconf,oppteamconfid,predicted_winner,percentage_sim_win,message
-03/10/2024,Northern Colo.,193,Big Sky,9,Idaho St.,125,Big Sky,9,Northern Colo.,.64399999,Northern Colo. is predicted to win a very a close game.
-03/11/2024,Montana,184,Big Sky,9,Portland St.,239,Big Sky,9,Montana,.75599998,Montana is predicted to win by less than 10 points.
-03/11/2024,Montana St.,185,Big Sky,9,Weber St.,350,Big Sky,9,Weber St.,.72399998,Weber St. is predicted to win by less than 10 points.
-03/11/2024,Portland St.,239,Big Sky,9,Montana,184,Big Sky,9,Montana,.72399998,Montana is predicted to win by less than 10 points.
-03/11/2024,Weber St.,350,Big Sky,9,Montana St.,185,Big Sky,9,Weber St.,.71200001,Weber St. is predicted to win by less than 10 points.
-03/11/2024,Hofstra,119,CAA,12,Stony Brook,291,CAA,12,Hofstra,.72799999,Hofstra is predicted to win by less than 10 points.
-03/11/2024,Towson,305,CAA,12,Col. of Charleston,57,CAA,12,Col. of Charleston,.63,Col. of Charleston is predicted to win a very a close game.
-03/11/2024,Col. of Charleston,57,CAA,12,Towson,305,CAA,12,Col. of Charleston,.67000002,Col. of Charleston is predicted to win a very a close game.
-03/11/2024,Stony Brook,291,CAA,12,Hofstra,119,CAA,12,Hofstra,.71399999,Hofstra is predicted to win by less than 10 points.
-03/11/2024,Milwaukee,353,Horizon,14,Northern Ky.,196,Horizon,14,Northern Ky.,.57200003,Northern Ky. is predicted to win a very a close game.
-03/11/2024,Cleveland St.,55,Horizon,14,Oakland,223,Horizon,14,Oakland,.67199999,Oakland is predicted to win a very a close game.
-03/11/2024,Oakland,223,Horizon,14,Cleveland St.,55,Horizon,14,Oakland,.65600002,Oakland is predicted to win a very a close game.
-03/11/2024,Northern Ky.,196,Horizon,14,Milwaukee,353,Horizon,14,Northern Ky.,.51800001,Northern Ky. is predicted to win a very a close game.
-03/11/2024,Tex. A&M-Commerce,376,Southland,29,Nicholls,210,Southland,29,Nicholls,.764,Nicholls is predicted to win by less than 10 points.
-03/11/2024,Nicholls,210,Southland,29,Tex. A&M-Commerce,376,Southland,29,Nicholls,.75,Nicholls is predicted to win by less than 10 points.
-03/11/2024,Lamar University,148,Southland,29,New Orleans,208,Southland,29,Lamar University,.85600001,Lamar University is predicted to win by more than 10 points.
-03/11/2024,New Orleans,208,Southland,29,Lamar University,148,Southland,29,Lamar University,.87,Lamar University is predicted to win by more than 10 points.
-03/11/2024,Denver,75,Summit,30,Omaha,202,Summit,30,Omaha,.51200002,Omaha is predicted to win a very a close game.
-03/11/2024,Omaha,202,Summit,30,Denver,75,Summit,30,Omaha,.542,Omaha is predicted to win a very a close game.
-03/11/2024,James Madison,140,Sunbelt,31,Arkansas St.,16,Sunbelt,31,James Madison,.75599998,James Madison is predicted to win by less than 10 points.
-03/11/2024,Arkansas St.,16,Sunbelt,31,James Madison,140,Sunbelt,31,James Madison,.73199999,James Madison is predicted to win by less than 10 points.
-03/11/2024,Gonzaga,110,WCC,34,San Francisco,261,WCC,34,Gonzaga,.76200002,Gonzaga is predicted to win by less than 10 points.
-03/11/2024,San Francisco,261,WCC,34,Gonzaga,110,WCC,34,Gonzaga,.77600002,Gonzaga is predicted to win by less than 10 points.
 03/12/2024,La Salle,146,A-10,1,George Washington,102,A-10,1,George Washington,.542,George Washington is predicted to win a very a close game.
 03/12/2024,Rhode Island,247,A-10,1,Saint Louis,286,A-10,1,Saint Louis,.58399999,Saint Louis is predicted to win a very a close game.
 03/12/2024,Saint Louis,286,A-10,1,Rhode Island,247,A-10,1,Saint Louis,.546,Saint Louis is predicted to win a very a close game.
