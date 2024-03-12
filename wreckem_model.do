@@ -345,10 +345,10 @@ drop upcoming_game
 * Create tempfile for predictions
 tempfile `wreckem_predictions'
 save `wreckem_predictions', replace
-sort sort date teamconf
 
 sort predicted_winner date
 duplicates drop predicted_winner date, force
+sort date teamconf
 
 
 * Export predictions
