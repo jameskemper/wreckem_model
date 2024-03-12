@@ -347,6 +347,9 @@ tempfile `wreckem_predictions'
 save `wreckem_predictions', replace
 sort sort date teamconf
 
+sort predicted_winner date
+duplicates drop predicted_winner date, force
+
 
 * Export predictions
 export delimited using "C:\Users\jkemper\OneDrive - Texas Tech University\Git\wreckem_model\Data\Predictions\predictions.csv", replace
