@@ -345,6 +345,7 @@ drop upcoming_game
 * Create tempfile for predictions
 tempfile `wreckem_predictions'
 save `wreckem_predictions', replace
+sort date
 
 
 * Export predictions
