@@ -339,7 +339,6 @@ save `wreckem_predictions', replace
 
 * Export predictions
 export delimited using \\myweb.ttu.edu\users\jkemper\Assets\NCAA_predictions.csv, replace
-
 * Get the current date in Stata's internal format
 local cdate = date(c(current_date), "DMY")
 
