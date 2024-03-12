@@ -327,7 +327,7 @@ replace predicted_winner = oppteam if mean_simulated_differential <0
 
 gen percentage_sim_win = percentage_team_wins
 replace percentage_sim_win = percentage_opp_wins if percentage_opp_wins > percentage_team_wins
-
+replace percentage_sim_win = .999 if percentage_sim_win == 1
 
 * Generate prediction message
 
