@@ -345,7 +345,8 @@ drop upcoming_game
 * Create tempfile for predictions
 tempfile `wreckem_predictions'
 save `wreckem_predictions', replace
-sort date
+sort sort date teamconf
+
 
 * Export predictions
 export delimited using "C:\Users\jkemper\OneDrive - Texas Tech University\Git\wreckem_model\Data\Predictions\predictions.csv", replace
