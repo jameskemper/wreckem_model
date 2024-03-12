@@ -346,6 +346,7 @@ drop upcoming_game
 tempfile `wreckem_predictions'
 save `wreckem_predictions', replace
 
+
 * Export predictions
 export delimited using "C:\Users\jkemper\OneDrive - Texas Tech University\Git\wreckem_model\Data\Predictions\predictions.csv", replace
 
