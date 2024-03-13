@@ -173,9 +173,9 @@ save `game_results', replace
 ** Import, clean, and edit NCAA Tournament Statistics 2021 - 2023
 
 * Collect NCAA stats from dataset
-import excel "C:\Users\jkemper\OneDrive - Texas Tech University\Git\wreckem_model\Data\NCAA_stats.xlsx", sheet("2021 - 2023") firstrow case(lower) clear
+import delimited "https://raw.githubusercontent.com/jameskemper/wreckem_model/main/Data/NCAA_stats.csv", clear
+drop d17
 
-https://github.com/jameskemper/wreckem_model/raw/main/Data/NCAA_stats.xlsx
 * Convert WLs into winning percentages, clean, and format
 split wl, parse("-") gen(quadrant_split)
 destring quadrant_split1 quadrant_split2, replace
@@ -395,8 +395,9 @@ sort predicted_winner date
 duplicates drop predicted_winner date, force
 sort date teamconf team
 
-* Export predictions
+* Export predictions (one works depending on desktop or latop)
 export delimited using "C:\Users\jkemper\OneDrive - Texas Tech University\Git\wreckem_model\Data\Predictions\predictions.csv", replace
+export delimited using "C:\Users\James Kemper\OneDrive - Texas Tech University\Git\wreckem_model\Data\Predictions\predictions.csv", replace
 
 * Get the current date in Stata's internal format
 local cdate = date(c(current_date), "DMY")
@@ -410,13 +411,11 @@ local day = day(`cdate')
 local fdate = "`month'_`day'_`year'"
 
 * Construct the file path with the current date in the filename
-local filepath `"C:\Users\jkemper\OneDrive - Texas Tech University\Git\wreckem_model\Data\Predictions\Predictions`fdate'.csv"'
+local filepath1 `"C:\Users\jkemper\OneDrive - Texas Tech University\Git\wreckem_model\Data\Predictions\Predictions`fdate'.csv"'
+local filepath2`"C:\Users\James Kemper\OneDrive - Texas Tech University\Git\wreckem_model\Data\Predictions\Predictions`fdate'.csv"'
 
-* Display the filepath for verification
-display "`filepath'"
 
 * Export the dataset to the constructed file path
-* Please ensure to replace the following placeholder command with your actual export command
-* For example: 
-export delimited using "`filepath'", replace
+export delimited using "`filepath1'", replace
+export delimited using "`filepath2'", replace
 
