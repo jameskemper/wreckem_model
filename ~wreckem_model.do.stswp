@@ -361,6 +361,7 @@ drop `r(varlist)'
 ds error_term_*
 drop `r(varlist)'
 
+
 * Calculate the percentage of simulations where the team/opponent wins
 gen percentage_team_wins = teamwins / 850
 gen percentage_opp_wins = oppwins / 850
