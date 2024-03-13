@@ -1,23 +1,24 @@
 date,team,teamid,teamconf,teamconfid,oppteam,oppteamid,oppteamconf,oppteamconfid,predicted_winner,percentage_sim_win,message
-03/13/2024,Boston College,29,ACC,3,Clemson,54,ACC,3,Clemson,.77999997,Clemson is predicted to win by less than 10 points.
-03/13/2024,Florida St.,98,ACC,3,Virginia Tech,338,ACC,3,Virginia Tech,.62470591,Virginia Tech is predicted to win a very a close game.
-03/13/2024,Notre Dame,222,ACC,3,Wake Forest,347,ACC,3,Wake Forest,.81647056,Wake Forest is predicted to win by less than 10 points.
-03/13/2024,Rutgers,252,Big 10,6,Maryland,167,Big 10,6,Maryland,.68000001,Maryland is predicted to win by less than 10 points.
-03/13/2024,Kansas,141,Big 12,7,Cincinnati,52,Big 12,7,Kansas,.60941178,Kansas is predicted to win a very a close game.
-03/13/2024,Kansas St.,142,Big 12,7,Texas,299,Big 12,7,Texas,.6270588,Texas is predicted to win a very a close game.
-03/13/2024,Oklahoma,227,Big 12,7,TCU,294,Big 12,7,TCU,.58235294,TCU is predicted to win a very a close game.
-03/13/2024,TCU,294,Big 12,7,Oklahoma,227,Big 12,7,Oklahoma,.51647061,Oklahoma is predicted to win a very a close game.
-03/13/2024,UCF,315,Big 12,7,BYU,39,Big 12,7,BYU,.6752941,BYU is predicted to win by less than 10 points.
-03/13/2024,Butler,38,Big East,8,Xavier,361,Big East,8,Xavier,.5411765,Xavier is predicted to win a very a close game.
-03/13/2024,Georgetown,106,Big East,8,Providence,243,Big East,8,Providence,.88823527,Providence is predicted to win by more than 10 points.
-03/13/2024,Air Force,2,MWC,21,New Mexico,206,MWC,21,New Mexico,.94235295,New Mexico is predicted to win by more than 10 points.
-03/13/2024,San Jose St.,262,MWC,21,Colorado St.,60,MWC,21,Colorado St.,.93764704,Colorado St. is predicted to win by more than 10 points.
-03/13/2024,Arizona St.,12,Pac 12,25,Utah,327,Pac 12,25,Utah,.75764704,Utah is predicted to win by less than 10 points.
-03/13/2024,Southern California,324,Pac 12,25,Washington,348,Pac 12,25,Washington,.56,Washington is predicted to win a very a close game.
-03/14/2024,Tulane,307,AAC,2,North Texas,216,AAC,2,North Texas,.71058822,North Texas is predicted to win by less than 10 points.
-03/14/2024,Iowa,133,Big 10,6,Ohio St.,225,Big 10,6,Iowa,.50117648,Iowa is predicted to win a very a close game.
-03/14/2024,Michigan St.,176,Big 10,6,Minnesota,177,Big 10,6,Michigan St.,.72000003,Michigan St. is predicted to win by less than 10 points.
-03/14/2024,San Diego St.,260,MWC,21,UNLV,323,MWC,21,San Diego St.,.70352942,San Diego St. is predicted to win by less than 10 points.
-03/14/2024,LSU,160,SEC,27,Mississippi St.,179,SEC,27,Mississippi St.,.68235296,Mississippi St. is predicted to win a very a close game.
-03/14/2024,Ole Miss,178,SEC,27,Texas A&M,300,SEC,27,Texas A&M,.6635294,Texas A&M is predicted to win a very a close game.
-03/16/2024,Brown,34,Ivy,16,Princeton,242,Ivy,16,Princeton,.8247059,Princeton is predicted to win by less than 10 points.
+03/13/2024,Boston College,29,ACC,3,Clemson,54,ACC,3,Clemson,.7835294,Clemson is predicted to win by less than 10 points.
+03/13/2024,Florida St.,98,ACC,3,Virginia Tech,338,ACC,3,Virginia Tech,.59411764,Virginia Tech is predicted to win a very a close game.
+03/13/2024,Notre Dame,222,ACC,3,Wake Forest,347,ACC,3,Wake Forest,.8364706,Wake Forest is predicted to win by more than 10 points.
+03/13/2024,Rutgers,252,Big 10,6,Maryland,167,Big 10,6,Maryland,.69647056,Maryland is predicted to win by less than 10 points.
+03/13/2024,Kansas,141,Big 12,7,Cincinnati,52,Big 12,7,Kansas,.63176471,Kansas is predicted to win a very a close game.
+03/13/2024,Kansas St.,142,Big 12,7,Texas,299,Big 12,7,Texas,.63176471,Texas is predicted to win a very a close game.
+03/13/2024,Oklahoma,227,Big 12,7,TCU,294,Big 12,7,TCU,.53294116,TCU is predicted to win a very a close game.
+03/13/2024,TCU,294,Big 12,7,Oklahoma,227,Big 12,7,Oklahoma,.52470589,Oklahoma is predicted to win a very a close game.
+03/13/2024,UCF,315,Big 12,7,BYU,39,Big 12,7,BYU,.65529412,BYU is predicted to win a very a close game.
+03/13/2024,Butler,38,Big East,8,Xavier,361,Big East,8,Xavier,.56470591,Xavier is predicted to win a very a close game.
+03/13/2024,Georgetown,106,Big East,8,Providence,243,Big East,8,Providence,.87058824,Providence is predicted to win by more than 10 points.
+03/13/2024,Xavier,361,Big East,8,Butler,38,Big East,8,Butler,.50588238,Butler is predicted to win a very a close game.
+03/13/2024,Air Force,2,MWC,21,New Mexico,206,MWC,21,New Mexico,.95647061,New Mexico is predicted to win by more than 10 points.
+03/13/2024,San Jose St.,262,MWC,21,Colorado St.,60,MWC,21,Colorado St.,.93411767,Colorado St. is predicted to win by more than 10 points.
+03/13/2024,Arizona St.,12,Pac 12,25,Utah,327,Pac 12,25,Utah,.7764706,Utah is predicted to win by less than 10 points.
+03/13/2024,Southern California,324,Pac 12,25,Washington,348,Pac 12,25,Washington,.5552941,Washington is predicted to win a very a close game.
+03/14/2024,Tulane,307,AAC,2,North Texas,216,AAC,2,North Texas,.70705885,North Texas is predicted to win by less than 10 points.
+03/14/2024,Iowa,133,Big 10,6,Ohio St.,225,Big 10,6,Iowa,.50588238,Iowa is predicted to win a very a close game.
+03/14/2024,Minnesota,177,Big 10,6,Michigan St.,176,Big 10,6,Michigan St.,.79411763,Michigan St. is predicted to win by less than 10 points.
+03/14/2024,San Diego St.,260,MWC,21,UNLV,323,MWC,21,San Diego St.,.70823532,San Diego St. is predicted to win by less than 10 points.
+03/14/2024,LSU,160,SEC,27,Mississippi St.,179,SEC,27,Mississippi St.,.64823532,Mississippi St. is predicted to win a very a close game.
+03/14/2024,Ole Miss,178,SEC,27,Texas A&M,300,SEC,27,Texas A&M,.62823528,Texas A&M is predicted to win a very a close game.
+03/16/2024,Brown,34,Ivy,16,Princeton,242,Ivy,16,Princeton,.8247059,Princeton is predicted to win by more than 10 points.
