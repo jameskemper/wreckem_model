@@ -352,15 +352,14 @@ drop oppconference conference
 * Sort by teamid and date to ensure order
 sort teamid date
 
-* Create a variable to identify the last game of the day for each team
-by teamid date: gen last_game = _n == _N
+* Keeping the last game of the day only
 
-* Keep only the last game of the day
+gen agg_ids = teamid + oppteamid
+sort agg_ids date
+by agg_ids date: gen last_game = _n == _N
 keep if last_game == 1
-drop last_game
-
+ 
 * Create point_differential measurment and drop unused string variables
-
 drop month day d1 location
 
 * Create tempfile for model simulations
@@ -381,7 +380,7 @@ drop max_wieght
 drop conf oppconf
 
 * Run the regression model
-by teamid, sort : regress point_differential adj_off adj_def oppadj_off oppadj_def adjem adjo adjd adjtempo adj_luck oppadjem oppadjo oppadjd oppadjtempo oppadj_luck adj_avgoppnetrank adj_avgoppnet adj_q1 adj_q2 adj_q3 adj_q4 adj_netsos adj_netnonconfsos oppadj_avgoppnetrank oppadj_avgoppnet oppadj_q1 oppadj_q2 oppadj_q3 oppadj_q4 oppadj_netsos oppadj_netnonconfsos if upcoming_game ==0 [iweight = weight]
+regress point_differential adj_off adj_def oppadj_off oppadj_def adjem adjo adjd adjtempo adj_luck oppadjem oppadjo oppadjd oppadjtempo oppadj_luck adj_avgoppnetrank adj_avgoppnet adj_q1 adj_q2 adj_q3 adj_q4 adj_netsos adj_netnonconfsos oppadj_avgoppnetrank oppadj_avgoppnet oppadj_q1 oppadj_q2 oppadj_q3 oppadj_q4 oppadj_netsos oppadj_netnonconfsos [iweight = weight] if upcoming_game ==0
 
 
 * Calculate and store the standard deviation of the residuals
