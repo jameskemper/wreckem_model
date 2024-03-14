@@ -352,15 +352,14 @@ drop oppconference conference
 * Sort by teamid and date to ensure order
 sort teamid date
 
-* Create a variable to identify the last game of the day for each team
-by teamid date: gen last_game = _n == _N
+* Keeping the last game of the day only
 
-* Keep only the last game of the day
+gen agg_ids = teamid + oppteamid
+sort agg_ids date
+by agg_ids date: gen last_game = _n == _N
 keep if last_game == 1
-drop last_game
-
+ 
 * Create point_differential measurment and drop unused string variables
-
 drop month day d1 location
 
 * Create tempfile for model simulations
