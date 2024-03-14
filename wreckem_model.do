@@ -126,6 +126,7 @@ save `opp_adj_stats', replace
 
 * Merge adjusted team stats with game results
 use `game_results', clear
+drop _merge
 merge m:m team teamid using `adj_stats'
 keep if _merge == 3
 drop _merge
@@ -140,15 +141,23 @@ save `game_results', replace
 
 import delimited "https://raw.githubusercontent.com/Owenbb2/KenPom-Exploration-March-2024/main/KenPomStats_2024.csv", clear
 
+* Create adjusted scaler for luck
+sort luck 
+summarize luck , detail
+local luck = 400- r(max)
+gen adj_luck = luck + `luck'
+
+keep team conf adjem adjo adjd adjtempo adj_luck
+
 *Merge data with team_ids tempfile and reorder
 merge m:m team using "`team_ids'"
 keep if _merge ==3
-drop _merge conf wl
+drop _merge
 order teamid teamconf teamconfid, after(team)
 
 * Create tempfile for KenPom statistics
-tempfile KenPom_stats
-save `KenPom_stats', replace
+tempfile team_KenPom_stats
+save `team_KenPom_stats', replace
 
 * Loop through each variable and add the prefix "opp"
 foreach var of varlist _all {
@@ -161,12 +170,10 @@ save `opp_KenPom_stats', replace
 
 * Merge adjusted team stats with game results
 use `game_results', clear
-merge m:m team teamid using `KenPom_stats'
+merge m:m team teamid using `team_KenPom_stats'
 keep if _merge == 3
 drop _merge
 
-* Merge adjusted team stats with game results
-use `game_results', clear
 merge m:m oppteam oppteamid using `opp_KenPom_stats'
 keep if _merge == 3
 drop _merge
@@ -254,6 +261,50 @@ label variable quadrant2 "Quandrant 2 Win Loss %"
 label variable quadrant3 "Quandrant 3 Win Loss %"
 label variable quadrant4 "Quandrant 4 Win Loss %"
 
+* Calculate scaling factors
+sort avgoppnetrank 
+summarize avgoppnetrank , detail
+local avgoppnetrank = 400- r(max)
+gen adj_avgoppnetrank = avgoppnetrank + `avgoppnetrank'
+
+sort avgoppnet 
+summarize avgoppnet , detail
+local avgoppnet = 400- r(max)
+gen adj_avgoppnet = avgoppnet + `avgoppnet'
+
+sort quadrant1 
+summarize quadrant1 , detail
+local quadrant1 = 100- r(max)
+gen adj_q1 = quadrant1 + `quadrant1'
+
+sort quadrant2 
+summarize quadrant2 , detail
+local quadrant2 = 200- r(max)
+gen adj_q2 = quadrant2 + `quadrant2'
+
+sort quadrant3 
+summarize quadrant3 , detail
+local quadrant3 = 300- r(max)
+gen adj_q3 = quadrant3 + `quadrant3'
+
+sort quadrant4 
+summarize quadrant4 , detail
+local quadrant4 = 400- r(max)
+gen adj_q4 = quadrant4 + `quadrant4'
+
+sort netsos 
+summarize netsos , detail
+local netsos = 400- r(max)
+gen adj_netsos = netsos + `netsos'
+
+sort netnonconfsos 
+summarize netnonconfsos , detail
+local netnonconfsos = 400- r(max)
+gen adj_netnonconfsos = netnonconfsos + `netnonconfsos'
+
+*keep adjusted scalers and indentifiers
+keep team conference adj_q1 adj_q2 adj_q3 adj_q4 adj_netsos adj_netnonconfsos adj_avgoppnetrank adj_avgoppnet
+
 * Combine adjusted stats with Team IDS
 merge m:m team using `team_ids'
 keep if _merge == 3
@@ -309,14 +360,6 @@ save `sims_stats', replace
 * Create the point differential variable
 gen point_differential = teamscore - oppscore
 
-* Gen and calculate weight variable
-
-sort date teamconf
-gen weight = ((year - 2023) * 12) + month(date)
-egen max_weight = max(weight)
-replace weight = weight / max_weight
-drop max_weight
-
 * Sort by teamid and date to ensure order
 sort teamid date
 
@@ -325,12 +368,19 @@ by teamid date: gen last_game = _n == _N
 
 * Keep only the last game of the day
 keep if last_game == 1
+drop last_game
 
-* Set your panel data structure
-xtset teamid date
+* Generate weight variables
+
+gen month = month(date)
+gen weight = month + (2024-year)
+egen max_wieght = max(weight)
+replace weight = weight/max_wieght
+drop max_wieght
+drop conf oppconf
 
 * Run the regression model
-reg point_differential adj_off adj_def oppadj_off oppadj_def net prevnet avgoppnetrank avgoppnet netsos netnonconfsos wl confrecord nonconferencerecord roadwl quadrant1 quadrant2 quadrant3 quadrant4 oppnet oppprevnet oppavgoppnetrank oppavgoppnet oppnetsos oppnetnonconfsos oppwl oppconfrecord oppnonconferencerecord opproadwl oppquadrant1 oppquadrant2 oppquadrant3 oppquadrant4 [weight=weight] if upcoming_game == 0
+by teamid, sort : regress point_differential adj_off adj_def oppadj_off oppadj_def adjem adjo adjd adjtempo adj_luck oppadjem oppadjo oppadjd oppadjtempo oppadj_luck adj_avgoppnetrank adj_avgoppnet adj_q1 adj_q2 adj_q3 adj_q4 adj_netsos adj_netnonconfsos oppadj_avgoppnetrank oppadj_avgoppnet oppadj_q1 oppadj_q2 oppadj_q3 oppadj_q4 oppadj_netsos oppadj_netnonconfsos if upcoming_game ==0 [iweight = weight]
 
 * Calculate and store the standard deviation of the residuals
 predict predicted_point_differential
