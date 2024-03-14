@@ -176,7 +176,6 @@ save `game_results', replace
 
 * Collect NCAA stats from dataset
 import delimited "https://raw.githubusercontent.com/jameskemper/wreckem_model/main/Data/NCAA_stats.csv", clear
-drop d17
 
 * Convert WLs into winning percentages, clean, and format
 split wl, parse("-") gen(quadrant_split)
@@ -260,7 +259,6 @@ merge m:m team using `team_ids'
 keep if _merge == 3
 order teamid teamconf teamconfid, after(team)
 drop _merge
-drop q
 
 * Create tempfile and save data
 tempfile NCAA_stats
@@ -305,26 +303,31 @@ drop month day d1 location
 
 * Create tempfile for model simulations
 
-tempfile `sims_stats'
+tempfile sims_stats
 save `sims_stats', replace
  
 * Create the point differential variable
 gen point_differential = teamscore - oppscore
 
-* Gen and calculate weight variable
+* Sort by teamid and date to ensure order
+sort teamid date
 
-sort date teamconf
-gen weight = ((year - 2023) * 12) + month(date)
-egen max_weight = max(weight)
-replace weight = weight / max_weight
-drop max_weight
+* Create a variable to identify the last game of the day for each team
+by teamid date: gen last_game = _n == _N
+
+* Keep only the last game of the day
+keep if last_game == 1
+drop last_game
+
+* Set your panel data structure
+xtset teamid date
 
 * Run the regression model
-reg point_differential adj_off adj_def oppadj_off oppadj_def net prevnet avgoppnetrank avgoppnet netsos netnonconfsos wl confrecord nonconferencerecord roadwl quadrant1 quadrant2 quadrant3 quadrant4 oppnet oppprevnet oppavgoppnetrank oppavgoppnet oppnetsos oppnetnonconfsos oppwl oppconfrecord oppnonconferencerecord opproadwl oppquadrant1 oppquadrant2 oppquadrant3 oppquadrant4 [weight=weight] if upcoming_game == 0
+xtreg point_differential adj_off adj_def oppadj_off oppadj_def oppadjem oppadjo oppadjorank oppadjd oppadjdrank oppadjtempo oppadjtemporank oppluck oppluckrank net prevnet avgoppnetrank avgoppnet netsos netnonconfsos wl confrecord nonconferencerecord roadwl quadrant1 quadrant2 quadrant3 quadrant4 oppnet oppprevnet oppavgoppnetrank oppavgoppnet oppnetsos oppnetnonconfsos oppwl oppconfrecord oppnonconferencerecord opproadwl oppquadrant1 oppquadrant2 oppquadrant3 oppquadrant4 if upcoming_game ==0
 
 * Calculate and store the standard deviation of the residuals
 predict predicted_point_differential
-predict residuals, residuals
+predict residuals, e
 summarize residuals, detail
 scalar sd_resid = r(sd)
 
