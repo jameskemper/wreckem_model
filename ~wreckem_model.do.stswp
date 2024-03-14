@@ -295,7 +295,6 @@ save `game_results', replace
 
 * Creat date variable and xtset confid
 gen date = mdy(month, day, year)
-gen week = week(date)
 order date, before(year)
 format %tdNN/DD/CCYY date
 drop oppconference conference
