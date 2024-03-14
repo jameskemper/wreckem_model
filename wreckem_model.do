@@ -41,6 +41,8 @@ import delimited "`full_url'", clear
 * Drop game scores that are not available (NA)
 replace teamscore ="" if teamscore =="NA"
 replace oppscore ="" if oppscore =="NA"
+drop if year == 2023 & oppscore ==""
+drop if year == 2023 & teamscore ==""
 
 * Convert scores from string to numeric
 destring teamscore, replace
