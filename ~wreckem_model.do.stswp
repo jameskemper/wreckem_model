@@ -350,7 +350,7 @@ save `wreckem_predictions', replace
 
 * Remove duplicate games and games before 2024
 gen teamsids = teamid + oppteamid
-sort date teamsids
+sort date teamsi
 duplicates drop date teamsids, force
 
 gen year = year(date)
