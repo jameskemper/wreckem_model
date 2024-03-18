@@ -1,77 +1,122 @@
-﻿Team,Region,Seed,RegionID,Round
-Colorado St.,Midwest,10,3,0
-Virginia,Midwest,10,4,0
-Virginia,Midwest,10,3,0
-Grambling,Midwest,16,2,0
-Grambling,Midwest,16,3,0
-Montana St.,Midwest,16,3,0
-Montana St.,Midwest,16,3,0
-Boise St.,South,10,2,0
-Boise St.,South,10,2,0
-Colorado,South,10,2,0
-Howard,West,16,4,0
-Howard,West,16,4,0
-Wagner,West,16,3,0
-Wagner,West,16,4,0
-UConn,East,1,1,1
-UConn,East,1,1,1
-Iowa St.,East,2,1,1
-Illinois,East,3,1,1
-Auburn,East,4,1,1
-San Diego St.,East,5,1,1
-BYU,East,6,1,1
-Washington St.,East,7,1,1
-Florida Atlantic,East,8,1,1
-Northwestern,East,9,1,1
-Drake,East,10,1,1
-Duquesne,East,11,1,1
-UAB,East,12,1,1
-Yale,East,13,1,1
-Morehead St.,East,14,1,1
-South Dakota St.,East,15,1,1
-Stetson,East,16,1,1
-Purdue,Midwest,1,3,1
-Tennessee,Midwest,2,3,1
-Creighton,Midwest,3,3,1
-Kansas,Midwest,4,3,1
-Gonzaga,Midwest,5,3,1
-South Carolina,Midwest,6,3,1
-Texas,Midwest,7,3,1
-Utah St.,Midwest,8,3,1
-TCU,Midwest,9,3,1
-Oregon,Midwest,11,3,1
-McNeese,Midwest,12,3,1
-Samford,Midwest,13,3,1
-Akron,Midwest,14,3,1
-Saint Peter's,Midwest,15,3,1
-Houston,South,1,2,1
-Marquette,South,2,2,1
-Kentucky,South,3,2,1
-Duke,South,4,2,1
-Wisconsin,South,5,2,1
-Texas Tech,South,6,2,1
-Florida,South,7,2,1
-Nebraska,South,8,2,1
-Texas A&M,South,9,2,1
-Colorado,South,10,1,1
-NC State,South,11,2,1
-James Madison,South,12,2,1
-Vermont,South,13,2,1
-Oakland,South,14,2,1
-W. Kentucky,South,15,2,1
-Longwood,South,16,2,1
-North Carolina,West,1,4,1
-Arizona,West,2,4,1
-Baylor,West,3,4,1
-Alabama,West,4,4,1
-Saint Mary's,West,5,4,1
-Clemson,West,6,4,1
-Dayton,West,7,4,1
-Mississippi St.,West,8,4,1
-Michigan St.,West,9,4,1
-Nevada,West,10,4,1
-New Mexico,West,11,4,1
-Grand Canyon,West,12,4,1
-Charleston,West,13,4,1
-Colgate,West,14,4,1
-Long Beach St.,West,15,4,1
+team,region,seed,regionid,firstfour,teamid,conference,confid
+UConn,East,1,East,0,62,Big East,8
+Iowa St.,East,2,East,0,134,Big 12,7
+Iowa St.,East,2,East,0,134,Big 12,7
+Illinois,East,3,East,0,127,Big 10,6
+Illinois,East,3,East,0,127,Big 10,6
+Auburn,East,4,East,0,19,SEC,27
+Auburn,East,4,East,0,19,SEC,27
+San Diego St.,East,5,East,0,260,MWC,21
+San Diego St.,East,5,East,0,260,MWC,21
+BYU,East,6,East,0,39,Big 12,7
+Washington St.,East,7,East,0,349,Pac 12,25
+Washington St.,East,7,East,0,349,Pac 12,25
+Fla. Atlantic,East,8,East,0,93,AAC,2
+Northwestern,East,9,East,0,220,Big 10,6
+Northwestern,East,9,East,0,220,Big 10,6
+Drake,East,10,East,0,78,MVC,20
+Drake,East,10,East,0,78,MVC,20
+Duquesne,East,11,East,0,81,A-10,1
+UAB,East,12,East,0,311,AAC,2
+Yale,East,13,East,0,362,Ivy,16
+Yale,East,13,East,0,362,Ivy,16
+Morehead St.,East,14,East,0,186,OVC,24
+Morehead St.,East,14,East,0,186,OVC,24
+South Dakota St.,East,15,East,0,254,Summit,30
+South Dakota St.,East,15,East,0,254,Summit,30
+Stetson,East,16,East,0,290,A-Sun,5
+Houston,South,1,Midwest,0,121,Big 12,7
+Houston,South,1,Midwest,0,121,Big 12,7
+Marquette,South,2,Midwest,0,165,Big East,8
+Marquette,South,2,Midwest,0,165,Big East,8
+Kentucky,South,3,Midwest,0,145,SEC,27
+Kentucky,South,3,Midwest,0,145,SEC,27
+Duke,South,4,Midwest,0,80,ACC,3
+Duke,South,4,Midwest,0,80,ACC,3
+Wisconsin,South,5,Midwest,0,357,Big 10,6
+Wisconsin,South,5,Midwest,0,357,Big 10,6
+Texas Tech,South,6,Midwest,0,302,Big 12,7
+Texas Tech,South,6,Midwest,0,302,Big 12,7
+Florida,South,7,Midwest,0,95,SEC,27
+Florida,South,7,Midwest,0,95,SEC,27
+Nebraska,South,8,Midwest,0,203,Big 10,6
+Nebraska,South,8,Midwest,0,203,Big 10,6
+Texas A&M,South,9,Midwest,0,300,SEC,27
+Texas A&M,South,9,Midwest,0,300,SEC,27
+Boise St.,South,10,Midwest,1,28,MWC,21
+Colorado,South,10,Midwest,1,59,Pac 12,25
+Colorado,South,10,Midwest,1,59,Pac 12,25
+Boise St.,South,10,Midwest,1,28,MWC,21
+NC State,South,11,Midwest,0,200,ACC,3
+James Madison,South,12,Midwest,0,140,Sunbelt,31
+James Madison,South,12,Midwest,0,140,Sunbelt,31
+Vermont,South,13,Midwest,0,335,Am. East,4
+Vermont,South,13,Midwest,0,335,Am. East,4
+Oakland,South,14,Midwest,0,223,Horizon,14
+Oakland,South,14,Midwest,0,223,Horizon,14
+Western Ky.,South,15,Midwest,0,342,C-USA,13
+Longwood,South,16,Midwest,0,154,Big South,10
+Longwood,South,16,Midwest,0,154,Big South,10
+Purdue,Midwest,1,South,0,244,Big 10,6
+Purdue,Midwest,1,South,0,244,Big 10,6
+Tennessee,Midwest,2,South,0,296,SEC,27
+Tennessee,Midwest,2,South,0,296,SEC,27
+Creighton,Midwest,3,South,0,65,Big East,8
+Creighton,Midwest,3,South,0,65,Big East,8
+Kansas,Midwest,4,South,0,141,Big 12,7
+Kansas,Midwest,4,South,0,141,Big 12,7
+Gonzaga,Midwest,5,South,0,110,WCC,34
+Gonzaga,Midwest,5,South,0,110,WCC,34
+South Carolina,Midwest,6,South,0,275,SEC,27
+South Carolina,Midwest,6,South,0,275,SEC,27
+Texas,Midwest,7,South,0,299,Big 12,7
+Texas,Midwest,7,South,0,299,Big 12,7
+Utah St.,Midwest,8,South,0,328,MWC,21
+Utah St.,Midwest,8,South,0,328,MWC,21
+TCU,Midwest,9,South,0,294,Big 12,7
+Colorado St.,Midwest,10,South,1,60,MWC,21
+Colorado St.,Midwest,10,South,1,60,MWC,21
+Virginia,Midwest,10,South,1,337,ACC,3
+Virginia,Midwest,10,South,1,337,ACC,3
+Oregon,Midwest,11,South,0,231,Pac 12,25
+Oregon,Midwest,11,South,0,231,Pac 12,25
+McNeese,Midwest,12,South,0,169,Southland,29
+Samford,Midwest,13,South,0,258,Southern,28
+Samford,Midwest,13,South,0,258,Southern,28
+Akron,Midwest,14,South,0,3,MAC,18
+Akron,Midwest,14,South,0,3,MAC,18
+Saint Peter's,Midwest,15,South,0,288,MAAC,17
+Grambling,Midwest,16,South,1,111,SWAC,32
+Montana St.,Midwest,16,South,1,185,Big Sky,9
+Montana St.,Midwest,16,South,1,185,Big Sky,9
+North Carolina,West,1,West,0,213,ACC,3
+North Carolina,West,1,West,0,213,ACC,3
+Arizona,West,2,West,0,11,Pac 12,25
+Arizona,West,2,West,0,11,Pac 12,25
+Baylor,West,3,West,0,23,Big 12,7
+Baylor,West,3,West,0,23,Big 12,7
+Alabama,West,4,West,0,4,SEC,27
+Alabama,West,4,West,0,4,SEC,27
+Saint Mary's (CA),West,5,West,0,287,WCC,34
+Clemson,West,6,West,0,54,ACC,3
+Clemson,West,6,West,0,54,ACC,3
+Dayton,West,7,West,0,72,A-10,1
+Dayton,West,7,West,0,72,A-10,1
+Mississippi St.,West,8,West,0,179,SEC,27
+Mississippi St.,West,8,West,0,179,SEC,27
+Michigan St.,West,9,West,0,176,Big 10,6
+Michigan St.,West,9,West,0,176,Big 10,6
+Nevada,West,10,West,0,204,MWC,21
+Nevada,West,10,West,0,204,MWC,21
+New Mexico,West,11,West,0,206,MWC,21
+New Mexico,West,11,West,0,206,MWC,21
+Grand Canyon,West,12,West,0,112,WAC,33
+Grand Canyon,West,12,West,0,112,WAC,33
+Col. of Charleston,West,13,West,0,57,CAA,12
+Colgate,West,14,West,0,58,Patriot,26
+Colgate,West,14,West,0,58,Patriot,26
+Long Beach St.,West,15,West,0,152,Big West,11
+Long Beach St.,West,15,West,0,152,Big West,11
+Wagner,West,16,West,1,346,NEC,23
+Howard,West,16,West,1,123,MEAC,19
+Howard,West,16,West,1,123,MEAC,19
