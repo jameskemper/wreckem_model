@@ -1,7 +1,7 @@
-# WRECK_EM: NCAA Men's Basketball Game Predictor
+# WRECKEM: NCAA Men's Basketball Game Predictor
 
 ## Overview
-Welcome to the WRECK_EM repository, a predictive model named in honor of Texas Tech University, designed to forecast outcomes of NCAA Men's Basketball games. Leveraging the principles of the ELO ranking system, this model integrates NCAA quad wins statistics and KenPom efficiency scores to predict game outcomes with enhanced accuracy.
+Welcome to the WRECKEM repository, a predictive model named in honor of Texas Tech University, designed to forecast outcomes of NCAA Men's Basketball games. Leveraging the principles of the ELO ranking system, this model integrates NCAA quad wins statistics and KenPom efficiency scores to predict game outcomes with enhanced accuracy.
 
 ## Model Description
 WRECK_EM is rooted in the ELO ranking system, a method for calculating the relative skill levels of players in competitor-versus-competitor games. The model adapts this system to the dynamic and competitive world of NCAA Men's Basketball by incorporating:
