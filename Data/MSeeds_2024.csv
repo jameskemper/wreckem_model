@@ -1,129 +1,41 @@
-Tournament,Seed,TeamID
-M,W01,1345
-M,W02,1266
-M,W03,1243
-M,W04,1397
-M,W05,1181
-M,W06,1246
-M,W07,1277
-M,W08,1272
-M,W09,1194
-M,W10,1425
-M,W11,1344
-M,W12,1331
-M,W13,1418
-M,W14,1286
-M,W15,1436
-M,W16,1192
-M,X01,1104
-M,X02,1112
-M,X03,1124
-M,X04,1438
-M,X05,1361
-M,X06,1166
-M,X07,1281
-M,X08,1268
-M,X09,1452
-M,X10,1429
-M,X11,1301
-M,X12,1158
-M,X13,1202
-M,X14,1364
-M,X15,1343
-M,X16,1394
-M,Y01,1222
-M,Y02,1400
-M,Y03,1462
-M,Y04,1231
-M,Y05,1274
-M,Y06,1235
-M,Y07,1401
-M,Y08,1234
-M,Y09,1120
-M,Y10,1336
-M,Y11,1338
-M,Y12,1179
-M,Y13,1245
-M,Y14,1244
-M,Y15,1159
-M,Y16,1297
-M,Z01,1242
-M,Z02,1417
-M,Z03,1211
-M,Z04,1163
-M,Z05,1388
-M,Z06,1395
-M,Z07,1321
-M,Z08,1116
-M,Z09,1228
-M,Z10,1129
-M,Z11,1113
-M,Z12,1433
-M,Z13,1233
-M,Z14,1213
-M,Z15,1421
-M,Z16,1224
-W,W01,3376
-W,W02,3268
-W,W03,3323
-W,W04,3417
-W,W05,3328
-W,W06,3166
-W,W07,3112
-W,W08,3378
-W,W09,3266
-W,W10,3452
-W,W11,3280
-W,W12,3339
-W,W13,3170
-W,W14,3381
-W,W15,3221
-W,W16,3313
-W,X01,3390
-W,X02,3234
-W,X03,3181
-W,X04,3400
-W,X05,3257
-W,X06,3160
-W,X07,3199
-W,X08,3279
-W,X09,3211
-W,X10,3208
-W,X11,3292
-W,X12,3179
-W,X13,3187
-W,X14,3233
-W,X15,3368
-W,X16,3357
-W,Y01,3231
-W,Y02,3428
-W,Y03,3261
-W,Y04,3437
-W,Y05,3450
-W,Y06,3276
-W,Y07,3301
-W,Y08,3329
-W,Y09,3274
-W,Y10,3343
-W,Y11,3424
-W,Y12,3195
-W,Y13,3156
-W,Y14,3218
-W,Y15,3205
-W,Y16,3399
-W,Z01,3439
-W,Z02,3163
-W,Z03,3326
-W,Z04,3397
-W,Z05,3235
-W,Z06,3314
-W,Z07,3124
-W,Z08,3425
-W,Z09,3355
-W,Z10,3104
-W,Z11,3385
-W,Z12,3405
-W,Z13,3387
-W,Z14,3241
-W,Z15,3436
-W,Z16,3151
+﻿Game_Number,Team,Region,Seed,RegionID,OppTeam,Region,Seed,RegionID,Round
+1,Colorado St.,Midwest,10,3,Virginia,Midwest,10,3,0
+2,Howard,West,16,4,Wagner,West,16,4,0
+3,Montana St.,Midwest,16,3,Grambling,Midwest,16,3,0
+4,Boise St.,South,10,2,Colorado,South,10,2,0
+5,UConn,East,1,1,Stetson,East,16,1,1
+6,Florida Atlantic,East,8,1,Northwestern,East,9,1,1
+7,San Diego St.,East,5,1,UAB,East,12,1,1
+8,Auburn,East,4,1,Yale,East,13,1,1
+9,BYU,East,6,1,Duquesne,East,11,1,1
+10,Illinois,East,3,1,Morehead St.,East,14,1,1
+11,Washington St.,East,7,1,Drake,East,10,1,1
+12,Iowa St.,East,2,1,South Dakota St.,East,15,1,1
+13,North Carolina,West,1,4,,West,16,4,1
+14,Mississippi St.,West,8,4,Michigan St.,West,9,4,1
+15,Saint Mary's,West,5,4,Grand Canyon,West,12,4,1
+16,Alabama,West,4,4,Charleston,West,13,4,1
+17,Clemson,West,6,4,New Mexico,West,11,4,1
+18,Baylor,West,3,4,Colgate,West,14,4,1
+19,Dayton,West,7,4,Nevada,West,10,4,1
+20,Arizona,West,2,4,Long Beach St.,West,15,4,1
+21,Houston,South,1,2,Longwood,South,16,2,1
+22,Nebraska,South,8,2,Texas A&M,South,9,2,1
+23,Wisconsin,South,5,2,James Madison,South,12,2,1
+24,Duke,South,4,2,Vermont,South,13,2,1
+25,Texas Tech,South,6,2,NC State,South,11,2,1
+26,Kentucky,South,3,2,Oakland,South,14,2,1
+27,Florida,South,7,2,,South,10,2,1
+28,Marquette,South,2,2,W. Kentucky,South,15,2,1
+29,Purdue,Midwest,1,3,,Midwest,16,3,1
+30,Utah St.,Midwest,8,3,TCU,Midwest,9,3,1
+31,Gonzaga,Midwest,5,3,McNeese,Midwest,12,3,1
+32,Kansas,Midwest,4,3,Samford,Midwest,13,3,1
+33,South Carolina,Midwest,6,3,Oregon,Midwest,11,3,1
+34,Creighton,Midwest,3,3,Akron,Midwest,14,3,1
+35,Texas,Midwest,7,3,,Midwest,10,3,1
+36,Tennessee,Midwest,2,3,Saint Peter's,Midwest,15,3,1
+1,Virginia,Midwest,10,4,Howard,West,16,4,0
+2,Wagner,West,16,3,Montana St.,Midwest,16,3,0
+3,Grambling,Midwest,16,2,Boise St.,South,10,2,0
+4,Colorado,South,10,1,UConn,East,1,1,1
