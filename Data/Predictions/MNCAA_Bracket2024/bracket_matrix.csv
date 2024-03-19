@@ -1,0 +1,460 @@
+team,oppteam,predicted_winner,percentage_sim_win
+New Mexico,Howard,New Mexico,0.9870588
+Alabama,Colgate,Alabama,0.9447059
+UConn,Washington St.,UConn,0.8894117
+Nevada,Long Beach St.,Nevada,0.8647059
+Duquesne,Stetson,Duquesne,0.8152941
+Michigan St.,New Mexico,Michigan St.,0.5505883
+BYU,Duquesne,BYU,0.88
+Yale,South Dakota St.,Yale,0.6905882
+Duke,James Madison,Duke,0.7811764
+Tennessee,Texas,Tennessee,0.6670588
+Creighton,Utah St.,Creighton,0.7658824
+Baylor,Grand Canyon,Baylor,0.7894118
+Nebraska,Colorado,Nebraska,0.5035294
+TCU,Akron,TCU,0.8505883
+Saint Mary's,New Mexico,Saint Mary's,0.999
+Marquette,Longwood,Marquette,0.9482353
+South Carolina,Texas,Texas,0.7152941
+Purdue,Akron,Purdue,0.9858823
+Tennessee,South Carolina,Tennessee,0.8376471
+Oregon,McNeese,McNeese,0.577647
+Florida Atlantic,Morehead St.,Florida Atlantic,0.999
+Purdue,Montana St.,Purdue,0.9964706
+TCU,Colorado St.,Colorado St.,0.5152941
+UAB,South Dakota St.,UAB,0.6152941
+Duke,Nebraska,Duke,0.6482353
+Creighton,McNeese,Creighton,0.7764706
+Creighton,Gonzaga,Creighton,0.5917647
+South Carolina,Utah St.,Utah St.,0.5741177
+Saint Mary's,Michigan St.,Saint Mary's,0.999
+Wisconsin,Vermont,Wisconsin,0.8788235
+Purdue,Tennessee,Purdue,0.6247059
+Florida Atlantic,Drake,Florida Atlantic,0.999
+San Diego St.,Washington St.,San Diego St.,0.6788235
+Nebraska,James Madison,Nebraska,0.6141176
+Purdue,Samford,Purdue,0.9352941
+Alabama,Wagner,Alabama,0.9894118
+Texas A&M,Colorado,Colorado,0.5564706
+Alabama,Nevada,Alabama,0.7035294
+North Carolina,Nevada,North Carolina,0.7211764
+Washington St.,Morehead St.,Washington St.,0.7811764
+Purdue,Gonzaga,Purdue,0.76
+South Carolina,Saint Peter's,South Carolina,0.8964706
+BYU,Northwestern,BYU,0.7752941
+Colorado St.,Saint Peter's,Colorado St.,0.9458824
+Mississippi St.,Nevada,Mississippi St.,0.5929412
+Alabama,Michigan St.,Alabama,0.5423529
+Houston,Vermont,Houston,0.9811765
+Saint Mary's,Clemson,Saint Mary's,0.999
+UConn,Illinois,UConn,0.7035294
+Utah St.,McNeese,Utah St.,0.5388235
+Texas,Saint Peter's,Texas,0.96
+Gonzaga,Colorado St.,Gonzaga,0.5788235
+Illinois,San Diego St.,Illinois,0.6047059
+Long Beach St.,Wagner,Long Beach St.,0.7670588
+Nevada,Colgate,Nevada,0.8694118
+Marquette,Vermont,Marquette,0.9435294
+Yale,Stetson,Yale,0.7341176
+Purdue,Oregon,Purdue,0.94
+Duke,Texas A&M,Duke,0.7270588
+Florida,James Madison,Florida,0.6729411
+Saint Mary's,Nevada,Saint Mary's,0.999
+Florida,Colorado,Florida,0.5235294
+Colorado St.,Oregon,Colorado St.,0.6941177
+Purdue,Colorado St.,Purdue,0.8423529
+Baylor,Colgate,Baylor,0.94
+Duke,Oakland,Duke,0.9552941
+Kansas,Texas,Kansas,0.5870588
+Alabama,Grand Canyon,Alabama,0.7082353
+Duquesne,Yale,Duquesne,0.5282353
+Arizona,Colgate,Arizona,0.9882353
+Marquette,Texas Tech,Marquette,0.6635294
+Michigan St.,Wagner,Michigan St.,0.9905882
+Akron,Saint Peter's,Akron,0.7211764
+Alabama,Long Beach St.,Alabama,0.9552941
+James Madison,Vermont,James Madison,0.7682353
+Utah St.,Akron,Utah St.,0.7976471
+Creighton,TCU,Creighton,0.697647
+Kansas,Saint Peter's,Kansas,0.9847059
+Utah St.,TCU,TCU,0.5905882
+Mississippi St.,Michigan St.,Michigan St.,0.5905882
+Marquette,Nebraska,Marquette,0.6505882
+Houston,NC State,Houston,0.9235294
+UConn,BYU,UConn,0.6894118
+Texas,TCU,Texas,0.5588235
+Kentucky,Longwood,Kentucky,0.9035294
+Dayton,New Mexico,New Mexico,0.5764706
+Utah St.,Saint Peter's,Utah St.,0.92
+Wisconsin,Nebraska,Wisconsin,0.5411765
+Kansas,TCU,Kansas,0.6694118
+Baylor,Mississippi St.,Baylor,0.6588235
+Mississippi St.,Grand Canyon,Mississippi St.,0.5858824
+Northwestern,UAB,Northwestern,0.7941176
+Baylor,Long Beach St.,Baylor,0.9705882
+Iowa St.,Northwestern,Iowa St.,0.7929412
+UConn,UAB,UConn,0.9882353
+Charleston,Wagner,Charleston,0.999
+Wisconsin,Oakland,Wisconsin,0.9
+Baylor,Dayton,Baylor,0.6882353
+Houston,Longwood,Houston,0.9847059
+Gonzaga,Saint Peter's,Gonzaga,0.9776471
+Charleston,Colgate,Charleston,0.999
+Northwestern,Yale,Northwestern,0.7011765
+Texas Tech,Oakland,Texas Tech,0.88
+Morehead St.,South Dakota St.,Morehead St.,0.6588235
+Houston,Wisconsin,Houston,0.8164706
+BYU,UAB,BYU,0.9435294
+North Carolina,Colgate,North Carolina,0.9611765
+Utah St.,Montana St.,Utah St.,0.9435294
+UConn,South Dakota St.,UConn,0.9929412
+North Carolina,Alabama,North Carolina,0.5094118
+Purdue,Texas,Purdue,0.7952941
+Colgate,Wagner,Colgate,0.8105882
+Colgate,Howard,Colgate,0.8129412
+Nebraska,NC State,Nebraska,0.6741176
+Grand Canyon,Howard,Grand Canyon,0.9811765
+Houston,James Madison,Houston,0.9152941
+Mississippi St.,Long Beach St.,Mississippi St.,0.9117647
+Florida,Oakland,Florida,0.9011765
+Auburn,Stetson,Auburn,0.9917647
+Michigan St.,Howard,Michigan St.,0.9905882
+Morehead St.,Stetson,Morehead St.,0.7388235
+Creighton,Colorado St.,Creighton,0.6858823
+Washington St.,Northwestern,Washington St.,0.5011765
+Iowa St.,San Diego St.,Iowa St.,0.6435294
+UAB,Stetson,UAB,0.6576471
+Colorado,James Madison,Colorado,0.6411765
+New Mexico,Grand Canyon,New Mexico,0.6317647
+San Diego St.,UAB,San Diego St.,0.8811765
+Colorado St.,Akron,Colorado St.,0.8564706
+Clemson,Michigan St.,Michigan St.,0.5717647
+Oregon,Akron,Oregon,0.7082353
+Mississippi St.,Colgate,Mississippi St.,0.9058824
+Kansas,Montana St.,Kansas,0.9847059
+Oregon,Montana St.,Oregon,0.9188235
+Iowa St.,UAB,Iowa St.,0.9517647
+Texas A&M,Longwood,Texas A&M,0.8223529
+Creighton,Montana St.,Creighton,0.9952941
+Texas Tech,Colorado,Texas Tech,0.5082353
+San Diego St.,Morehead St.,San Diego St.,0.8741177
+Northwestern,Morehead St.,Northwestern,0.7635294
+Drake,Stetson,Drake,0.9129412
+Auburn,BYU,Auburn,0.6035294
+Houston,Texas Tech,Houston,0.8435294
+Tennessee,McNeese,Tennessee,0.8317647
+Gonzaga,Samford,Gonzaga,0.7905883
+W. Kentucky,Longwood,W. Kentucky,0.999
+Drake,Morehead St.,Drake,0.7729412
+Iowa St.,Auburn,Auburn,0.5788235
+Creighton,Akron,Creighton,0.9494117
+McNeese,Montana St.,McNeese,0.94
+BYU,Yale,BYU,0.8882353
+Houston,Colorado,Houston,0.8517647
+Arizona,Baylor,Arizona,0.6764706
+Duquesne,South Dakota St.,Duquesne,0.7411765
+Saint Peter's,Montana St.,Saint Peter's,0.5717647
+Marquette,Texas A&M,Marquette,0.7188236
+Northwestern,Stetson,Northwestern,0.9094118
+North Carolina,Howard,North Carolina,0.9929412
+TCU,Montana St.,TCU,0.9517647
+South Dakota St.,Stetson,South Dakota St.,0.5905882
+Samford,Saint Peter's,Samford,0.8423529
+Kentucky,Duke,Duke,0.6517647
+Kentucky,James Madison,Kentucky,0.6776471
+UConn,Yale,UConn,0.9694118
+Kentucky,Colorado,Kentucky,0.5729412
+Arizona,Dayton,Arizona,0.8423529
+San Diego St.,Yale,San Diego St.,0.8388236
+Nevada,Wagner,Nevada,0.9729412
+Gonzaga,McNeese,Gonzaga,0.7117647
+Duquesne,Morehead St.,Duquesne,0.5952941
+Tennessee,Colorado St.,Tennessee,0.7364706
+Florida Atlantic,Stetson,Florida Atlantic,0.999
+North Carolina,Long Beach St.,North Carolina,0.9647059
+Kentucky,Texas A&M,Kentucky,0.6164706
+Gonzaga,South Carolina,Gonzaga,0.7541177
+Marquette,NC State,Marquette,0.8035294
+Creighton,South Carolina,Creighton,0.8188235
+Purdue,South Carolina,Purdue,0.9
+Duke,Vermont,Duke,0.9352941
+Dayton,Mississippi St.,Mississippi St.,0.5529412
+Baylor,Alabama,Baylor,0.5447059
+Marquette,Wisconsin,Marquette,0.5882353
+Kansas,Colorado St.,Kansas,0.64
+Baylor,New Mexico,Baylor,0.6235294
+Washington St.,Drake,Washington St.,0.5258824
+Kentucky,NC State,Kentucky,0.6858823
+BYU,Morehead St.,BYU,0.9317647
+Texas Tech,Vermont,Texas Tech,0.8670588
+North Carolina,Baylor,Baylor,0.5141177
+Auburn,Washington St.,Auburn,0.8717647
+Arizona,Long Beach St.,Arizona,0.9882353
+Drake,Yale,Drake,0.7141176
+Saint Mary's,Colgate,Saint Mary's,0.999
+Nevada,New Mexico,New Mexico,0.6235294
+Clemson,Nevada,Clemson,0.6058823
+Kentucky,Texas Tech,Kentucky,0.557647
+Duke,Texas Tech,Duke,0.6835294
+Nebraska,Texas A&M,Nebraska,0.5764706
+Auburn,South Dakota St.,Auburn,0.9823529
+Florida,NC State,Florida,0.6611764
+Tennessee,Saint Peter's,Tennessee,0.9894118
+Wisconsin,Texas Tech,Wisconsin,0.5529412
+Baylor,Michigan St.,Baylor,0.5788235
+BYU,Washington St.,BYU,0.7141176
+Texas,Samford,Texas,0.7776471
+Arizona,Grand Canyon,Arizona,0.8741177
+Texas Tech,James Madison,Texas Tech,0.6117647
+Colorado,Longwood,Colorado,0.8647059
+Iowa St.,Drake,Iowa St.,0.802353
+UConn,Iowa St.,UConn,0.6670588
+Illinois,Yale,Illinois,0.9105883
+Illinois,UAB,Illinois,0.94
+Baylor,Nevada,Baylor,0.7411765
+Saint Mary's,Howard,Saint Mary's,0.999
+Texas,Akron,Texas,0.8882353
+Houston,Florida,Houston,0.8188235
+Clemson,Grand Canyon,Clemson,0.6058823
+Florida Atlantic,Yale,Florida Atlantic,0.999
+Tennessee,Akron,Tennessee,0.9529412
+Kansas,Samford,Kansas,0.8541176
+Wisconsin,Colorado,Wisconsin,0.5705882
+Nevada,Howard,Nevada,0.9764706
+Saint Mary's,Long Beach St.,Saint Mary's,0.999
+Purdue,Saint Peter's,Purdue,0.9929412
+Saint Mary's,Mississippi St.,Saint Mary's,0.999
+Texas Tech,Florida,Florida,0.5047059
+Texas,Oregon,Texas,0.7141176
+Nebraska,Vermont,Nebraska,0.877647
+Iowa St.,South Dakota St.,Iowa St.,0.9647059
+Alabama,Clemson,Alabama,0.6094118
+UAB,Yale,Yale,0.5835294
+Oakland,Longwood,Longwood,0.5364706
+North Carolina,Clemson,North Carolina,0.6282353
+Florida Atlantic,South Dakota St.,Florida Atlantic,0.999
+Alabama,New Mexico,Alabama,0.5823529
+Nebraska,Longwood,Nebraska,0.8917647
+Illinois,BYU,Illinois,0.5094118
+Colorado,NC State,Colorado,0.6647059
+Michigan St.,Long Beach St.,Michigan St.,0.9435294
+Illinois,Stetson,Illinois,0.9741176
+Colorado St.,Samford,Colorado St.,0.7447059
+Gonzaga,Akron,Gonzaga,0.9011765
+Charleston,Long Beach St.,Charleston,0.999
+Northwestern,Drake,Northwestern,0.52
+New Mexico,Long Beach St.,New Mexico,0.9117647
+Iowa St.,Morehead St.,Iowa St.,0.9482353
+Dayton,Colgate,Dayton,0.8835294
+Saint Mary's,Grand Canyon,Saint Mary's,0.999
+BYU,Stetson,BYU,0.9870588
+Baylor,Howard,Baylor,0.9964706
+Drake,UAB,Drake,0.7917647
+Tennessee,Samford,Tennessee,0.8894117
+North Carolina,Dayton,North Carolina,0.7
+Samford,Montana St.,Samford,0.877647
+UAB,Morehead St.,Morehead St.,0.5505883
+Kentucky,Florida,Kentucky,0.5070588
+Akron,Montana St.,Akron,0.7270588
+McNeese,Akron,McNeese,0.76
+James Madison,Longwood,James Madison,0.8141177
+Washington St.,UAB,Washington St.,0.8105882
+Tennessee,Creighton,Tennessee,0.5352941
+Colorado,Oakland,Colorado,0.877647
+Michigan St.,Grand Canyon,Michigan St.,0.7082353
+Arizona,Alabama,Arizona,0.7070588
+San Diego St.,Stetson,San Diego St.,0.96
+Baylor,Wagner,Baylor,0.9952941
+Florida Atlantic,UAB,Florida Atlantic,0.999
+Arizona,Mississippi St.,Arizona,0.8105882
+Tennessee,TCU,Tennessee,0.7364706
+Washington St.,Duquesne,Washington St.,0.7058824
+Arizona,Nevada,Arizona,0.8435294
+Kansas,Oregon,Kansas,0.7882353
+Iowa St.,Illinois,Iowa St.,0.5870588
+Houston,Nebraska,Houston,0.8670588
+Mississippi St.,Howard,Mississippi St.,0.9858823
+Grand Canyon,Colgate,Grand Canyon,0.8282353
+Texas,Montana St.,Texas,0.9611765
+Gonzaga,TCU,Gonzaga,0.637647
+Florida,Texas A&M,Florida,0.6035294
+Houston,Marquette,Houston,0.7258824
+Tennessee,Gonzaga,Tennessee,0.6470588
+Baylor,Clemson,Baylor,0.6435294
+Saint Mary's,Dayton,Saint Mary's,0.999
+Charleston,Howard,Charleston,0.999
+Illinois,Duquesne,Illinois,0.8705882
+Iowa St.,Washington St.,Iowa St.,0.7752941
+Arizona,New Mexico,Arizona,0.7917647
+Washington St.,Stetson,Washington St.,0.9164706
+South Carolina,Akron,South Carolina,0.7270588
+New Mexico,Colgate,New Mexico,0.9305882
+NC State,Oakland,NC State,0.7858824
+Florida,Longwood,Florida,0.8670588
+Alabama,Mississippi St.,Alabama,0.6470588
+Michigan St.,Nevada,Michigan St.,0.6858823
+NC State,Longwood,NC State,0.7447059
+Houston,Texas A&M,Houston,0.8917647
+Gonzaga,Oregon,Gonzaga,0.7588235
+North Carolina,New Mexico,North Carolina,0.6258823
+Drake,South Dakota St.,Drake,0.8894117
+Colgate,Long Beach St.,Long Beach St.,0.5082353
+Michigan St.,Colgate,Michigan St.,0.9341177
+Texas,Colorado St.,Texas,0.5447059
+Iowa St.,BYU,Iowa St.,0.5364706
+South Carolina,Oregon,South Carolina,0.5411765
+North Carolina,Wagner,North Carolina,0.9894118
+Purdue,TCU,Purdue,0.8647059
+Marquette,Florida,Marquette,0.6788235
+Iowa St.,Yale,Iowa St.,0.9305882
+Kentucky,Vermont,Kentucky,0.8847059
+UConn,Northwestern,UConn,0.9035294
+North Carolina,Arizona,Arizona,0.7047059
+Duke,Wisconsin,Duke,0.6317647
+Creighton,Kansas,Creighton,0.5141177
+Clemson,Colgate,Clemson,0.92
+Texas A&M,Oakland,Texas A&M,0.8564706
+Auburn,Northwestern,Auburn,0.8388236
+Long Beach St.,Howard,Long Beach St.,0.8058823
+Florida Atlantic,Duquesne,Florida Atlantic,0.999
+Clemson,Dayton,Clemson,0.5317647
+Kentucky,Wisconsin,Wisconsin,0.5435294
+UConn,Auburn,UConn,0.6058823
+San Diego St.,BYU,BYU,0.622353
+Wisconsin,Florida,Wisconsin,0.5258824
+Nebraska,Oakland,Nebraska,0.8729412
+Texas A&M,Vermont,Texas A&M,0.8282353
+Clemson,Long Beach St.,Clemson,0.9141176
+Florida,Nebraska,Florida,0.5282353
+BYU,Drake,BYU,0.78
+Dayton,Wagner,Dayton,0.9894118
+UConn,San Diego St.,UConn,0.8047059
+Drake,Duquesne,Drake,0.66
+UConn,Duquesne,UConn,0.9694118
+UConn,Morehead St.,UConn,0.9811765
+NC State,James Madison,James Madison,0.5729412
+Iowa St.,Stetson,Iowa St.,0.98
+Houston,Oakland,Houston,0.9870588
+Auburn,Drake,Auburn,0.8752941
+North Carolina,Mississippi St.,North Carolina,0.6305882
+Colorado St.,McNeese,Colorado St.,0.6611764
+Wisconsin,Texas A&M,Wisconsin,0.6258823
+Howard,Wagner,Wagner,0.5388235
+Northwestern,Duquesne,Northwestern,0.6882353
+Washington St.,South Dakota St.,Washington St.,0.86
+San Diego St.,Duquesne,San Diego St.,0.82
+South Carolina,Samford,South Carolina,0.5823529
+Auburn,Duquesne,Auburn,0.937647
+Houston,Kentucky,Houston,0.8423529
+North Carolina,Michigan St.,North Carolina,0.5741177
+Texas A&M,James Madison,Texas A&M,0.5529412
+Illinois,Morehead St.,Illinois,0.9129412
+TCU,Oregon,TCU,0.6788235
+North Carolina,Grand Canyon,North Carolina,0.7494118
+Duquesne,UAB,Duquesne,0.6282353
+Texas Tech,NC State,Texas Tech,0.6470588
+Illinois,Washington St.,Illinois,0.7658824
+Gonzaga,Utah St.,Gonzaga,0.7082353
+Tennessee,Montana St.,Tennessee,0.9929412
+Illinois,Northwestern,Illinois,0.7458823
+Auburn,Yale,Auburn,0.9611765
+Kentucky,Oakland,Kentucky,0.9058824
+Arizona,Clemson,Arizona,0.8058823
+Northwestern,South Dakota St.,Northwestern,0.862353
+Vermont,Oakland,Vermont,0.5411765
+Florida Atlantic,Northwestern,Florida Atlantic,0.999
+Wisconsin,James Madison,Wisconsin,0.6764706
+McNeese,Samford,McNeese,0.6105883
+Texas Tech,Nebraska,Nebraska,0.5035294
+James Madison,Oakland,James Madison,0.7952941
+UConn,Stetson,UConn,0.9941176
+Mississippi St.,Wagner,Mississippi St.,0.9776471
+Duke,Florida,Duke,0.6447059
+Texas A&M,NC State,Texas A&M,0.6129412
+Vermont,Longwood,Vermont,0.5329412
+Colorado St.,Montana St.,Colorado St.,0.9811765
+South Carolina,Colorado St.,Colorado St.,0.6658823
+Wisconsin,Longwood,Wisconsin,0.8835294
+San Diego St.,South Dakota St.,San Diego St.,0.9364706
+Duke,Colorado,Duke,0.6882353
+Texas,McNeese,Texas,0.6764706
+Utah St.,Colorado St.,Colorado St.,0.6247059
+Clemson,New Mexico,New Mexico,0.5364706
+Illinois,South Dakota St.,Illinois,0.9694118
+Alabama,Dayton,Alabama,0.6611764
+NC State,Vermont,NC State,0.7517647
+Clemson,Wagner,Clemson,0.9823529
+Illinois,Auburn,Auburn,0.6564706
+Utah St.,Samford,Utah St.,0.6658823
+Grand Canyon,Wagner,Grand Canyon,0.9635294
+TCU,McNeese,TCU,0.6270588
+TCU,Saint Peter's,TCU,0.9541177
+Saint Mary's,Wagner,Saint Mary's,0.999
+Texas Tech,Texas A&M,Texas Tech,0.5552941
+Grand Canyon,Long Beach St.,Grand Canyon,0.8541176
+Creighton,Texas,Creighton,0.6164706
+Clemson,Howard,Clemson,0.9858823
+Duke,Longwood,Duke,0.9494117
+McNeese,Saint Peter's,McNeese,0.9094118
+Dayton,Howard,Dayton,0.9717647
+Yale,Morehead St.,Yale,0.5905882
+Alabama,Howard,Alabama,0.9929412
+Purdue,Kansas,Purdue,0.6694118
+Purdue,Creighton,Purdue,0.6388235
+Marquette,Duke,Duke,0.5341176
+Arizona,Howard,Arizona,0.9988235
+Marquette,James Madison,Marquette,0.7823529
+Marquette,Oakland,Marquette,0.9411765
+Gonzaga,Texas,Gonzaga,0.5305882
+Texas,Utah St.,Texas,0.6141176
+Arizona,Michigan St.,Arizona,0.7564706
+Iowa St.,Duquesne,Iowa St.,0.9105883
+Creighton,Oregon,Creighton,0.8635294
+Kansas,Gonzaga,Kansas,0.5435294
+Purdue,Utah St.,Purdue,0.8752941
+Colorado,Vermont,Colorado,0.8870588
+Mississippi St.,New Mexico,New Mexico,0.5447059
+Auburn,Morehead St.,Auburn,0.9576471
+Creighton,Samford,Creighton,0.8552941
+Dayton,Grand Canyon,Dayton,0.5882353
+Gonzaga,Montana St.,Gonzaga,0.98
+Nevada,Grand Canyon,Nevada,0.5235294
+Creighton,Saint Peter's,Creighton,0.9882353
+Marquette,Kentucky,Marquette,0.6458824
+Kansas,Akron,Kansas,0.9305882
+Duke,NC State,Duke,0.8188235
+Tennessee,Oregon,Tennessee,0.862353
+New Mexico,Wagner,New Mexico,0.9870588
+San Diego St.,Northwestern,San Diego St.,0.6905882
+TCU,Samford,TCU,0.7552941
+Illinois,Drake,Illinois,0.7470588
+Utah St.,Oregon,Utah St.,0.6152941
+Oregon,Saint Peter's,Oregon,0.8788235
+Arizona,Wagner,Arizona,0.999
+Texas Tech,Longwood,Texas Tech,0.8694118
+Auburn,San Diego St.,Auburn,0.7482353
+Kentucky,Nebraska,Kentucky,0.5164706
+Houston,Duke,Houston,0.7247059
+Clemson,Mississippi St.,Clemson,0.5129412
+South Carolina,Montana St.,South Carolina,0.9282353
+Oregon,Samford,Oregon,0.5529412
+Kansas,Utah St.,Kansas,0.7352941
+Marquette,Colorado,Marquette,0.6647059
+BYU,South Dakota St.,BYU,0.9705882
+Wisconsin,NC State,Wisconsin,0.7223529
+Dayton,Nevada,Dayton,0.5094118
+South Carolina,McNeese,McNeese,0.54
+Samford,Akron,Samford,0.6258823
+UConn,Drake,UConn,0.8952941
+Purdue,McNeese,Purdue,0.8882353
+Tennessee,Kansas,Tennessee,0.5564706
+Washington St.,Yale,Washington St.,0.7435294
+Kansas,South Carolina,Kansas,0.7964706
+Kansas,McNeese,Kansas,0.7447059
+San Diego St.,Drake,San Diego St.,0.6882353
+Florida,Vermont,Florida,0.88
+Tennessee,Utah St.,Tennessee,0.7964706
+Auburn,UAB,Auburn,0.9764706
+Dayton,Long Beach St.,Dayton,0.8964706
+Dayton,Michigan St.,Michigan St.,0.6411765
+South Carolina,TCU,TCU,0.6658823

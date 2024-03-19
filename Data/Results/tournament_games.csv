@@ -1,27 +1,4 @@
 Date,Team,OppTeam,Time/Score
-20240316,7 Iowa State,@  Houston,"ISU 69, HOU 41"
-20240316,10 Marquette,@  UConn,"CONN 73, MARQ 57"
-20240316,Wisconsin,@  Purdue,"WIS 76, PUR 75 (OT)"
-20240316,NC State,@  North Carolina,"NCSU 84, UNC 76"
-20240316,Mississippi State,@  Auburn,"AUB 73, MSST 66"
-20240316,Nebraska,@  Illinois,"ILL 98, NEB 87"
-20240316,UMass Lowell,@ Vermont,"UVM 66, UML 61"
-20240316,Brown,@ Princeton,"BRWN 90, PRIN 81"
-20240316,Delaware State,@ Howard,"HOW 70, DSU 67"
-20240316,Saint Joseph's,@ VCU,"VCU 66, JOES 60"
-20240316,Cornell,@ Yale,"YALE 69, COR 57"
-20240316,UAB,@ South Florida,"UAB 93, USF 83"
-20240316,St. Bonaventure,@ Duquesne,"DUQ 70, SBU 60"
-20240316,Texas A&M,@ Florida,"FLA 95, TA&M 90"
-20240316,Temple,@ Florida Atlantic,"TEM 74, FAU 73"
-20240316,New Mexico,@ San Diego State,"UNM 68, SDSU 61"
-20240316,Saint Peter's,@ Fairfield,"SPU 68, FAIR 63"
-20240316,Kent State,@ Akron,"AKR 62, KENT 61"
-20240316,UTEP,@ Western Kentucky,"WKU 78, UTEP 71"
-20240316,Oregon,@ Colorado,"ORE 75, COLO 68"
-20240316,Texas Southern,@ Grambling,"GRAM 75, TXSO 66"
-20240316,Long Beach State,@ UC Davis,"LBSU 74, UCD 70"
-20240316,UT Arlington,@ Grand Canyon,"GCU 89, UTA 74"
 20240317,Florida,@  Auburn,"AUB 86, FLA 67"
 20240317,Wisconsin,@  Illinois,"ILL 93, WIS 87"
 20240317,Brown,@ Yale,"YALE 62, BRWN 61"
@@ -29,14 +6,17 @@ Date,Team,OppTeam,Time/Score
 20240317,Temple,@ UAB,"UAB 85, TEM 69"
 20240319,16 WagnerMen's Basketball Championship - West Region - First Four,@  Howard,5:40 PM
 20240319,10 Colorado StateMen's Basketball Championship - Midwest Region - First Four,@  Virginia,8:10 PM
-20240319,North TexasNIT - 1st Round,@ LSU,TBD
+20240319,North TexasNIT - 1st Round,@ LSU,6:00 PM
 20240319,Boston CollegeNIT - 1st Round,@ Providence,6:00 PM
 20240319,XavierNIT - 1st Round,@ Georgia,6:00 PM
 20240319,CornellNIT - 1st Round,@ Ohio State,6:00 PM
+20240319,South FloridaNIT - 1st Round,@ UCF,8:00 PM
 20240319,RichmondNIT - 1st Round,@ Virginia Tech,8:00 PM
 20240319,MinnesotaNIT - 1st Round,@ Butler,8:00 PM
 20240319,Kansas StateNIT - 1st Round,@ Iowa,8:00 PM
 20240319,UC IrvineNIT - 1st Round,@ Utah,10:00 PM
+20240319,Texas SouthernCIT,@ Tarleton State,6:00 PM
+20240319,Abilene ChristianCIT,@ Texas A&M-Corpus Christi,8:00 PM
 20240320,16 GramblingMen's Basketball Championship - Midwest Region - First Four,@  Montana State,5:40 PM
 20240320,10 ColoradoMen's Basketball Championship - South Region - First Four,@  Boise State,8:10 PM
 20240320,Saint Joseph'sNIT - 1st Round,@ Seton Hall,6:00 PM
@@ -46,7 +26,9 @@ Date,Team,OppTeam,Time/Score
 20240320,Appalachian StateNIT - 1st Round,@ Wake Forest,7:00 PM
 20240320,San FranciscoNIT - 1st Round,@ Cincinnati,8:00 PM
 20240320,VCUNIT - 1st Round,@ Villanova,8:00 PM
-20240320,South FloridaNIT - 1st Round,@ UCF,8:00 PM
+20240320,Purdue Fort WayneCIT,@ Bowling Green,6:00 PM
+20240320,TBDCIT,@ TBD,6:00 PM
+20240320,Alabama A&MCIT,@ Austin Peay,7:00 PM
 20240321,9 Michigan StateMen's Basketball Championship - West Region - 1st Round,@  Mississippi State,11:15 AM
 20240321,11 DuquesneMen's Basketball Championship - East Region - 1st Round,@  BYU,11:40 AM
 20240321,14 AkronMen's Basketball Championship - Midwest Region - 1st Round,@  Creighton,12:30 PM
@@ -79,39 +61,39 @@ Date,Team,OppTeam,Time/Score
 20240322,12 James MadisonMen's Basketball Championship - South Region - 1st Round,@  Wisconsin,8:40 PM
 20240322,9 TCUMen's Basketball Championship - Midwest Region - 1st Round,@  Utah State,8:55 PM
 20240322,12 Grand CanyonMen's Basketball Championship - West Region - 1st Round,@  Saint Mary's,9:05 PM
-20240323,TBDMen's Basketball Championship - 2nd Round,@ TBD,TBD
-20240323,TBDMen's Basketball Championship - 2nd Round,@ TBD,TBD
-20240323,TBDMen's Basketball Championship - 2nd Round,@ TBD,TBD
-20240323,TBDMen's Basketball Championship - 2nd Round,@ TBD,TBD
-20240323,TBDMen's Basketball Championship - 2nd Round,@ TBD,TBD
-20240323,TBDMen's Basketball Championship - 2nd Round,@ TBD,TBD
-20240323,TBDMen's Basketball Championship - 2nd Round,@ TBD,TBD
-20240323,TBDMen's Basketball Championship - 2nd Round,@ TBD,TBD
+20240323,TBDMen's Basketball Championship - West Region - 2nd Round,@ TBD,TBD
+20240323,TBDMen's Basketball Championship - West Region - 2nd Round,@ TBD,TBD
+20240323,TBDMen's Basketball Championship - South Region - 2nd Round,@ TBD,TBD
+20240323,TBDMen's Basketball Championship - Midwest Region - 2nd Round,@ TBD,TBD
+20240323,TBDMen's Basketball Championship - Midwest Region - 2nd Round,@ TBD,TBD
+20240323,TBDMen's Basketball Championship - Midwest Region - 2nd Round,@ TBD,TBD
+20240323,TBDMen's Basketball Championship - East Region - 2nd Round,@ TBD,TBD
+20240323,TBDMen's Basketball Championship - East Region - 2nd Round,@ TBD,TBD
 20240323,TBDNIT - 2nd Round,@ TBD,TBD
 20240323,TBDNIT - 2nd Round,@ TBD,TBD
 20240323,TBDNIT - 2nd Round,@ TBD,TBD
 20240323,TBDNIT - 2nd Round,@ TBD,TBD
-20240323,TBDCBI - 1st Round,@ TBD,10:00 AM
-20240323,TBDCBI - 1st Round,@ TBD,12:00 PM
-20240323,TBDCBI - 1st Round,@ TBD,2:30 PM
-20240323,TBDCBI - 1st Round,@ TBD,4:30 PM
-20240324,TBDMen's Basketball Championship - 2nd Round,@ TBD,TBD
-20240324,TBDMen's Basketball Championship - 2nd Round,@ TBD,TBD
-20240324,TBDMen's Basketball Championship - 2nd Round,@ TBD,TBD
-20240324,TBDMen's Basketball Championship - 2nd Round,@ TBD,TBD
-20240324,TBDMen's Basketball Championship - 2nd Round,@ TBD,TBD
-20240324,TBDMen's Basketball Championship - 2nd Round,@ TBD,TBD
-20240324,TBDMen's Basketball Championship - 2nd Round,@ TBD,TBD
-20240324,TBDMen's Basketball Championship - 2nd Round,@ TBD,TBD
+20240323,Bethune-CookmanCBI - 1st Round,@ Arkansas State,12:00 PM
+20240323,Chicago StateCBI - 1st Round,@ UC San Diego,2:30 PM
+20240323,Delaware StateCBI - 1st Round,@ Seattle U,4:30 PM
+20240323,TBDCIT,@ Norfolk State,TBD
+20240324,TBDMen's Basketball Championship - East Region - 2nd Round,@ TBD,TBD
+20240324,TBDMen's Basketball Championship - East Region - 2nd Round,@ TBD,TBD
+20240324,TBDMen's Basketball Championship - Midwest Region - 2nd Round,@ TBD,TBD
+20240324,TBDMen's Basketball Championship - South Region - 2nd Round,@ TBD,TBD
+20240324,TBDMen's Basketball Championship - South Region - 2nd Round,@ TBD,TBD
+20240324,TBDMen's Basketball Championship - South Region - 2nd Round,@ TBD,TBD
+20240324,TBDMen's Basketball Championship - West Region - 2nd Round,@ TBD,TBD
+20240324,TBDMen's Basketball Championship - West Region - 2nd Round,@ TBD,TBD
 20240324,TBDNIT - 2nd Round,@ TBD,TBD
 20240324,TBDNIT - 2nd Round,@ TBD,TBD
 20240324,TBDNIT - 2nd Round,@ TBD,TBD
 20240324,TBDNIT - 2nd Round,@ TBD,TBD
-20240324,TBDCBI - 1st Round,@ TBD,10:00 AM
-20240324,TBDCBI - 1st Round,@ TBD,12:00 PM
-20240324,TBDCBI - 1st Round,@ TBD,2:30 PM
-20240324,TBDCBI - 1st Round,@ TBD,4:30 PM
-20240325,TBDCBI - Quarterfinal,@ TBD,11:00 AM
+20240324,Cleveland StateCBI - 1st Round,@ Northern Colorado,10:00 AM
+20240324,PresbyterianCBI - 1st Round,@ Montana,12:00 PM
+20240324,Little RockCBI - 1st Round,@ Fairfield,2:30 PM
+20240324,EvansvilleCBI - 1st Round,@ Quinnipiac,4:30 PM
+20240325,TBDCBI - Quarterfinal,@ High Point,11:00 AM
 20240325,TBDCBI - Quarterfinal,@ TBD,1:00 PM
 20240325,TBDCBI - Quarterfinal,@ TBD,3:30 PM
 20240325,TBDCBI - Quarterfinal,@ TBD,5:30 PM
@@ -139,3 +121,4 @@ Date,Team,OppTeam,Time/Score
 20240404,TBDNIT - Championship,@ TBD,6:00 PM
 20240406,TBDMen's Basketball Championship - Final Four,@ TBD,TBD
 20240406,TBDMen's Basketball Championship - Final Four,@ TBD,TBD
+20240408,TBDMen's Basketball Championship - National Championship,@ TBD,TBD

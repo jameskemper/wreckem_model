@@ -1,69 +1,65 @@
-﻿Region,RegionID,Team,TeamID,TeamSeed,FirstFour
-Midwest,3,Akron,3,14,0
-West,4,Alabama,4,4,0
-West,4,Arizona,11,2,0
-East,1,Auburn,19,4,0
-West,4,Baylor,23,3,0
-East,1,BYU,39,6,0
-West,4,Charleston,57,13,0
-West,4,Clemson,54,6,0
-West,4,Colgate,58,14,0
-Midwest,3,Creighton,65,3,0
-West,4,Dayton,72,7,0
-East,1,Drake,78,10,0
-South,2,Duke,80,4,0
-East,1,Duquesne,81,11,0
-South,2,Florida,95,7,0
-East,1,Florida Atlantic,93,8,0
-Midwest,3,Gonzaga,110,5,0
-West,4,Grand Canyon,112,12,0
-South,2,Houston,121,1,0
-East,1,Illinois,127,3,0
-East,1,Iowa St.,134,2,0
-South,2,James Madison,140,12,0
-Midwest,3,Kansas,141,4,0
-South,2,Kentucky,145,3,0
-West,4,Long Beach St.,152,15,0
-South,2,Longwood,154,16,0
-South,2,Marquette,165,2,0
-Midwest,3,McNeese,169,12,0
-West,4,Michigan St.,176,9,0
-West,4,Mississippi St.,179,8,0
-East,1,Morehead St.,186,14,0
-South,2,NC State,200,11,0
-South,2,Nebraska,203,8,0
-West,4,Nevada,204,10,0
-West,4,New Mexico,206,11,0
-West,4,North Carolina,213,1,0
-East,1,Northwestern,220,9,0
-South,2,Oakland,223,14,0
-Midwest,3,Oregon,231,11,0
-Midwest,3,Purdue,244,1,0
-West,4,Saint Mary's,287,5,0
-Midwest,3,Saint Peter's,288,15,0
-Midwest,3,Samford,258,13,0
-East,1,San Diego St.,260,5,0
-Midwest,3,South Carolina,275,6,0
-East,1,South Dakota St.,254,15,0
-East,1,Stetson,290,16,0
-Midwest,3,TCU,294,9,0
-Midwest,3,Tennessee,296,2,0
-Midwest,3,Texas,299,7,0
-South,2,Texas A&M,300,9,0
-South,2,Texas Tech,302,6,0
-East,1,UAB,311,12,0
-East,1,UConn,62,1,0
-Midwest,3,Utah St.,328,8,0
-South,2,Vermont,335,13,0
-South,2,W. Kentucky,342,15,0
-East,1,Washington St.,349,7,0
-South,2,Wisconsin,357,5,0
-East,1,Yale,362,13,0
-Midwest,3,Virginia,337,10,1
-Midwest,3,Colorado St.,60,10,1
-West,4,Howard,123,16,1
-West,4,Wagner,346,16,1
-South,2,Colorado,59,10,1
-South,2,Boise St.,28,10,1
-Midwest,3,Montana St.,185,16,1
-Midswest,3,Grambling,111,16,1
+﻿Region,RegionID,Team,TeamID,TeamSeed
+East,1,UConn,62,1
+East,1,Iowa St.,134,2
+East,1,Illinois,127,3
+East,1,Auburn,19,4
+East,1,San Diego St.,260,5
+East,1,BYU,39,6
+East,1,Washington St.,349,7
+East,1,Florida Atlantic,93,8
+East,1,Northwestern,220,9
+East,1,Drake,78,10
+East,1,Duquesne,81,11
+East,1,UAB,311,12
+East,1,Yale,362,13
+East,1,Morehead St.,186,14
+East,1,South Dakota St.,254,15
+East,1,Stetson,290,16
+South,2,Houston,121,1
+South,2,Marquette,165,2
+South,2,Kentucky,145,3
+South,2,Duke,80,4
+South,2,Wisconsin,357,5
+South,2,Texas Tech,302,6
+South,2,Florida,95,7
+South,2,Nebraska,203,8
+South,2,Texas A&M,300,9
+South,2,Colorado,59,10
+South,2,NC State,200,11
+South,2,James Madison,140,12
+South,2,Vermont,335,13
+South,2,Oakland,223,14
+South,2,W. Kentucky,342,15
+South,2,Longwood,154,16
+Midwest,3,Purdue,244,1
+Midwest,3,Tennessee,296,2
+Midwest,3,Creighton,65,3
+Midwest,3,Kansas,141,4
+Midwest,3,Gonzaga,110,5
+Midwest,3,South Carolina,275,6
+Midwest,3,Texas,299,7
+Midwest,3,Utah St.,328,8
+Midwest,3,TCU,294,9
+Midwest,3,Colorado St.,60,10
+Midwest,3,Oregon,231,11
+Midwest,3,McNeese,169,12
+Midwest,3,Samford,258,13
+Midwest,3,Akron,3,14
+Midwest,3,Saint Peter's,288,15
+Midwest,3,Montana St.,185,16
+West,4,North Carolina,213,1
+West,4,Arizona,11,2
+West,4,Baylor,23,3
+West,4,Alabama,4,4
+West,4,Saint Mary's,287,5
+West,4,Clemson,54,6
+West,4,Dayton,72,7
+West,4,Mississippi St.,179,8
+West,4,Michigan St.,176,9
+West,4,Nevada,204,10
+West,4,New Mexico,206,11
+West,4,Grand Canyon,112,12
+West,4,Charleston,57,13
+West,4,Colgate,58,14
+West,4,Long Beach St.,152,15
+West,4,Wagner,346,16
