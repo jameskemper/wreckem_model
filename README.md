@@ -9,12 +9,7 @@ WRECK_EM is rooted in the ELO ranking system, a method for calculating the relat
 - **NCAA Quad Wins Statistics**: A key metric reflecting the quality of wins based on the location and opponent's ranking, available [here](https://stats.ncaa.org/selection_rankings/nitty_gritties).
 - **KenPom Efficiency Scores**: Critical for assessing the offensive and defensive efficiency of teams, available [here](https://kenpom.com/).
 
-By running 500 simulations for every game based on various regressions, WRECK_EM aims to provide a detailed probabilistic forecast for each matchup.
-
-## Getting Started
-Instructions to set up and run WRECK_EM will go here, including any dependencies, how to clone the repository, and steps to run the model.
-
-Please note, KenPom efficiency scores are proprietary and require a subscription to access.
+By running 850 simulations for every game based on various regressions, WRECK_EM aims to provide a detailed probabilistic forecast for each matchup.
 
 ## ELO Ranking System
 Click [here](https://en.wikipedia.org/wiki/Elo_rating_system) or [here](https://link.springer.com/article/10.1007/s11257-016-9185-7) for more information on the ELO ranking system and adaptive maodels, which forms the basis of the model. 
