@@ -15,20 +15,21 @@ driver = webdriver.Chrome(service=service, options=options)
 
 # Function to clean oppteam text
 def clean_oppteam(text):
-    cleaned_text = re.sub(r" |\d+", "", text).strip()
+    # Remove digits and extra spaces
+    cleaned_text = re.sub(r"\d+", "", text).strip()
+    # Further clean to remove any leading or trailing special characters
+    cleaned_text = re.sub(r"^[^\w]+|[^\w]+$", "", cleaned_text)
     return cleaned_text
 
 # Function to remove trailing "@" from oppteam
 def remove_trailing_at(text):
     return text.rstrip('@').strip()
 
-# Updated file path
-csv_file = r"C:\Users\James Kemper\OneDrive - Texas Tech University\Git\wreckem_model\Data\Results\tournament_games.csv"
+csv_file = r"C:\Users\James Kemper\OneDrive - Texas Tech University\Git\wreckem_model\Data\Results\current_games.csv"
 csv_columns = ['Date', 'Team', 'OppTeam', 'Time/Score']
 
-# Calculate date range
 start_date = datetime.now() - timedelta(days=1)
-end_date = datetime.now() + timedelta(weeks=3)
+end_date = datetime.now() + timedelta(weeks=1)
 
 current_date = start_date
 games = []
@@ -47,16 +48,16 @@ while current_date <= end_date:
             oppteam_text = cols[1].text.strip()
             time_score = cols[2].text.strip()
             if ' @ ' in oppteam_text:
-                oppteam_parts = [clean_oppteam(part) for part in oppteam_text.split(' @ ')]
-                team = oppteam_parts[0]  # Ensure 'team' is updated correctly
-                oppteam = ' @ '.join(oppteam_parts)
+                oppteam_parts = oppteam_text.split(' @ ')
+                team = clean_oppteam(team_text)  # Clean the team name from the first column
+                oppteam = clean_oppteam(oppteam_parts[1])  # Clean the opponent team name
             else:
-                team = team_text
+                team = clean_oppteam(team_text)
                 oppteam = clean_oppteam(oppteam_text)
             game_info = {
                 'Date': formatted_date,
                 'Team': team,
-                'OppTeam': remove_trailing_at(oppteam),
+                'OppTeam': oppteam,
                 'Time/Score': time_score,
             }
             games.append(game_info)
