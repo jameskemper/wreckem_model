@@ -1,6 +1,5 @@
 date,team,teamid,teamconf,teamconfid,oppteam,oppteamid,oppteamconf,oppteamconfid,predicted_winner,percentage_sim_win,message
-3/20/2024,Colorado,59,Pac 12,25,Boise St.,28,MWC,21,Colorado,0.55176473,Colorado is predicted to win a very a close game.
-3/20/2024,Grambling,111,SWAC,32,Montana St.,185,Big Sky,9,Montana St.,0.69411767,Montana St. is predicted to win by less than 10 points.
+3/21/2024,Texas,,Big 12,7,Colorado St.,,MWC,21,Texas,0.6876473,Texas is predicted to win by less than 10 points.
 3/21/2024,Creighton,65,Big East,8,Akron,3,MAC,18,Creighton,0.9470588,Creighton is predicted to win by more than 10 points.
 3/21/2024,Duquesne,81,A-10,1,BYU,39,Big 12,7,BYU,0.8847059,BYU is predicted to win by more than 10 points.
 3/21/2024,Long Beach St.,152,Big West,11,Arizona,11,Pac 12,25,Arizona,0.98705882,Arizona is predicted to win by more than 10 points.
@@ -35,3 +34,5 @@ date,team,teamid,teamconf,teamconfid,oppteam,oppteamid,oppteamconf,oppteamconfid
 3/24/2024,Northern Colo.,193,Big Sky,9,Cleveland St.,55,Horizon,14,Cleveland St.,0.63529414,Cleveland St. is predicted to win a very a close game.
 3/24/2024,Quinnipiac,245,MAAC,17,Evansville,90,MVC,20,Quinnipiac,0.51294118,Quinnipiac is predicted to win a very a close game.
 3/24/2024,Presbyterian,241,Big South,10,Montana,184,Big Sky,9,Montana,0.77529413,Montana is predicted to win by less than 10 points.
+3/24/2024,Purdue,,Big 10,6,Grambling,111,SWAC,32,Purdue,0.92317413,Purdue is predicted to win by more than 10 points.
+3/24/2024,Florida,,SEC,27,Colorado,,Pac 12,25,Florida,0.56239213,Florida is predicted to win a very a close game.
