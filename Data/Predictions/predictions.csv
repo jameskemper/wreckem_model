@@ -1,9 +1,9 @@
 date,team,teamid,teamconf,oppteam,teamconfid,oppteamid,oppteamconf,oppteamconfid,predicted_winner,percentage_sim_win,message
-03/21/2024,Baylor,23,Big 12,Colgate,7,58,Patriot,26,Baylor,.95411766,Baylor is predicted to win by more than 10 points.
-03/21/2024,Clemson,54,ACC,New Mexico,3,206,MWC,21,New Mexico,.52470589,New Mexico is predicted to win a very a close game.
+03/21/2024,Baylor,23,Big 12,Colgate,7,58,Patriot,26,Baylor,.96823531,Baylor is predicted to win by more than 10 points.
+03/21/2024,Clemson,54,ACC,New Mexico,3,206,MWC,21,New Mexico,.56,New Mexico is predicted to win a very a close game.
 03/21/2024,UConn,62,Big East,Stetson,8,290,A-Sun,5,UConn,.99176472,UConn is predicted to win by more than 10 points.
-03/21/2024,Auburn,19,SEC,Yale,27,362,Ivy,16,Auburn,.94941175,Auburn is predicted to win by more than 10 points.
-03/21/2024,Duke,80,ACC,Vermont,3,335,Am. East,4,Duke,.93176472,Duke is predicted to win by more than 10 points.
-03/21/2024,Wisconsin,357,Big 10,James Madison,6,140,Sunbelt,31,Wisconsin,.68235296,Wisconsin is predicted to win by less than 10 points.
-03/21/2024,Nebraska,203,Big 10,Texas A&M,6,300,SEC,27,Nebraska,.57882351,Nebraska is predicted to win a very a close game.
-03/22/2024,Arizona,11,Pac 12,Dayton,25,72,A-10,1,Arizona,.84823531,Arizona is predicted to win by more than 10 points.
+03/21/2024,Auburn,19,SEC,Yale,27,362,Ivy,16,Auburn,.94,Auburn is predicted to win by more than 10 points.
+03/21/2024,Duke,80,ACC,Vermont,3,335,Am. East,4,Duke,.94823527,Duke is predicted to win by more than 10 points.
+03/21/2024,Wisconsin,357,Big 10,James Madison,6,140,Sunbelt,31,Wisconsin,.68235296,Wisconsin is predicted to win a very a close game.
+03/21/2024,Nebraska,203,Big 10,Texas A&M,6,300,SEC,27,Nebraska,.56588233,Nebraska is predicted to win a very a close game.
+03/22/2024,Arizona,11,Pac 12,Dayton,25,72,A-10,1,Arizona,.81764704,Arizona is predicted to win by more than 10 points.
