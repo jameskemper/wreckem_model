@@ -23,7 +23,7 @@ save `opp_team_ids', replace
 ** Scarpping and importing the current results for NCAA games
 
 * Import and clean schedule data for upcoming games
-import delimited "https://raw.githubusercontent.com/jameskemper/wreckem_model/main/Data/schedule.csv", varnames(1) clear
+import delimited "C:\Users\jkemper\OneDrive - Texas Tech University\Git\wreckem_model\Data\schedule.csv", varnames(1) clear 
 
 rename team1 team
 rename team2 oppteam
