@@ -1,76 +1,58 @@
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
+import requests
 from bs4 import BeautifulSoup
-import csv
-import time
+import pandas as pd
 import re
-from datetime import datetime, timedelta
+import json
+import html  # Added import for html module
 
-service = Service(ChromeDriverManager().install())
-options = webdriver.ChromeOptions()
-options.add_argument('--ignore-ssl-errors=yes')
-options.add_argument('--ignore-certificate-errors')
-driver = webdriver.Chrome(service=service, options=options)
+# Function to fetch the schedule text from the webpage
+def fetch_schedule_text(url):
+    response = requests.get(url)
+    soup = BeautifulSoup(response.content, 'html.parser')
+    script_tag = soup.find('script', type='application/ld+json')
+    data = json.loads(script_tag.string)
+    return data[0]['articleBody']
 
-# Function to clean oppteam text
-def clean_oppteam(text):
-    # Remove digits and extra spaces
-    cleaned_text = re.sub(r"\d+", "", text).strip()
-    # Further clean to remove any leading or trailing special characters
-    cleaned_text = re.sub(r"^[^\w]+|[^\w]+$", "", cleaned_text)
-    return cleaned_text
+# Function to extract date, team names, and save them to a CSV file
+def extract_and_save_schedule_info(schedule_text, game_pattern1, game_pattern2, schedule_file_path):
+    # Find subheader containing the date
+    subheader = re.search(r'March\s+(\d+)', schedule_text).group(0)
+    
+    # Extract day
+    day = int(re.search(r'\d+', subheader).group(0))
+    
+    # Extract date
+    date_str = f'March {day}, 2024'
+    date = pd.to_datetime(date_str, format='%B %d, %Y')
+    
+    # Extract team names with html.unescape() applied
+    matches_team1 = game_pattern1.findall(schedule_text)
+    team1_data = [{'Date': date, 'Team1': html.unescape(match[0].strip())} for match in matches_team1]
 
-# Function to remove trailing "@" from oppteam
-def remove_trailing_at(text):
-    return text.rstrip('@').strip()
+    matches_team2 = game_pattern2.findall(schedule_text)
+    team2_data = [{'Team2': html.unescape(match.strip())} for match in matches_team2]
 
-csv_file = r"C:\Users\James Kemper\OneDrive - Texas Tech University\Git\wreckem_model\Data\Results\current_games.csv"
-csv_columns = ['Date', 'Team', 'OppTeam', 'Time/Score']
+    # Combine team data
+    combined_data = [{**team1, **team2} for team1, team2 in zip(team1_data, team2_data)]
 
-start_date = datetime.now() - timedelta(days=1)
-end_date = datetime.now() + timedelta(weeks=1)
+    # Save schedule data to CSV
+    df_schedule = pd.DataFrame(combined_data)
+    df_schedule.to_csv(schedule_file_path, index=False, encoding='utf-8-sig')
 
-current_date = start_date
-games = []
+# URL of the webpage containing the schedule
+url = "https://www.sbnation.com/college-basketball/2024/3/13/24098869/march-madness-schedule-mens-2024-ncaa-tournament-dates-locations"
 
-while current_date <= end_date:
-    formatted_date = current_date.strftime("%Y%m%d")
-    url = f'https://www.espn.com/mens-college-basketball/schedule/_/date/{formatted_date}'
-    driver.get(url)
-    time.sleep(5)
-    soup = BeautifulSoup(driver.page_source, 'html.parser')
+# Define the regex pattern to match game information
+game_pattern1 = re.compile(r'No\.\s+\d+\s+([^\d/]+?)\s+vs\.\s+No\.\s+\d+\s+([^\d/]+?)(?:\s+\d+:\d+\s+[ap]\.m\. ET)?', re.IGNORECASE)
+game_pattern2 = re.compile(r'vs\. No\.\s+\d+\s+([^\d]+?)\s+\d+', re.IGNORECASE)
 
-    for row in soup.find_all('tr', attrs={'class': 'Table__TR Table__TR--sm Table__even'}):
-        cols = row.find_all('td')
-        if len(cols) > 0:
-            team_text = cols[0].text.strip()
-            oppteam_text = cols[1].text.strip()
-            time_score = cols[2].text.strip()
-            if ' @ ' in oppteam_text:
-                oppteam_parts = oppteam_text.split(' @ ')
-                team = clean_oppteam(team_text)  # Clean the team name from the first column
-                oppteam = clean_oppteam(oppteam_parts[1])  # Clean the opponent team name
-            else:
-                team = clean_oppteam(team_text)
-                oppteam = clean_oppteam(oppteam_text)
-            game_info = {
-                'Date': formatted_date,
-                'Team': team,
-                'OppTeam': oppteam,
-                'Time/Score': time_score,
-            }
-            games.append(game_info)
-    current_date += timedelta(days=1)
+# Path where the CSV file will be saved
+schedule_file_path = r'C:\Users\jkemper\OneDrive - Texas Tech University\Git\wreckem_model\Data\schedule.csv'
 
-driver.quit()
+# Fetching the schedule text from the webpage
+schedule_text = fetch_schedule_text(url)
 
-try:
-    with open(csv_file, 'w', newline='', encoding='utf-8') as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=csv_columns)
-        writer.writeheader()
-        for game in games:
-            writer.writerow(game)
-    print(f"Data saved to {csv_file}")
-except IOError:
-    print("I/O error")
+# Extracting date, team names, and saving them to a CSV file
+extract_and_save_schedule_info(schedule_text, game_pattern1, game_pattern2, schedule_file_path)
+
+print("Schedule information saved to CSV file successfully.")

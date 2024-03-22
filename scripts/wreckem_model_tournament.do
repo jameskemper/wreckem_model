@@ -25,9 +25,6 @@ save `opp_team_ids', replace
 * Import and clean schedule data for upcoming games
 import delimited "C:\Users\jkemper\OneDrive - Texas Tech University\Git\wreckem_model\Data\schedule.csv", varnames(1) clear 
 
-rename team1 team
-rename team2 oppteam
-
 gen new_date = date(date, "MDY")
 format %tdNN/DD/CCYY new_date
 drop date
@@ -207,7 +204,6 @@ label variable quadrant4 "Quandrant 4 Win Loss %"
 
 * Combine adjusted stats with Team IDS
 merge m:m team using `team_ids'
-order team teamid, after(team)
 drop _merge
 drop if quadrant1 ==.
 

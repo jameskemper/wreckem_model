@@ -25,9 +25,6 @@ save `opp_team_ids', replace
 * Import and clean schedule data for upcoming games
 import delimited "C:\Users\jkemper\OneDrive - Texas Tech University\Git\wreckem_model\Data\schedule.csv", varnames(1) clear 
 
-rename team1 team
-rename team2 oppteam
-
 gen new_date = date(date, "MDY")
 format %tdNN/DD/CCYY new_date
 drop date
@@ -207,7 +204,6 @@ label variable quadrant4 "Quandrant 4 Win Loss %"
 
 * Combine adjusted stats with Team IDS
 merge m:m team using `team_ids'
-order team teamid, after(team)
 drop _merge
 drop if quadrant1 ==.
 
@@ -244,6 +240,7 @@ save `game_results', replace
 * Create tempfile for model simulations
 tempfile sims_stats
 save `sims_stats', replace
+drop if date ==.
 
 * Create the point differential variable and year/month
 gen point_differential = teamscore - oppscore
@@ -263,6 +260,7 @@ encode location, gen(loc)
 drop location
 rename loc location
 order location, after(upcoming_game)
+
 
 * Run the regression model
 reg point_differential l location adj_off adj_def oppadj_off oppadj_def net prevnet avgoppnetrank avgoppnet netsos netnonconfsos wl confrecord nonconferencerecord roadwl quadrant1 quadrant2 quadrant3 quadrant4 oppnet oppprevnet oppavgoppnetrank oppavgoppnet oppnetsos oppnetnonconfsos oppwl oppconfrecord oppnonconferencerecord opproadwl oppquadrant1 oppquadrant2 oppquadrant3 oppquadrant4 [iweight = weight] if upcoming_game ==0
@@ -320,7 +318,7 @@ replace predicted_winner = oppteam if mean_simulated_differential <0
 
 gen percentage_sim_win = percentage_team_wins
 replace percentage_sim_win = percentage_opp_wins if percentage_opp_wins > percentage_team_wins
-replace percentage_sim_win = .999 if percentage_sim_win == 1
+replace percentage_sim_win = .95 if percentage_sim_win == 1
 
 
 * Generate prediction message
@@ -344,7 +342,6 @@ save `wreckem_predictions', replace
 gen teamsids = teamid + oppteamid
 sort date teamsids
 duplicates drop date teamsids, force
-
 
 gen year = year(date)
 drop if year < 2024
