@@ -1,18 +1,18 @@
 date,team,teamid,teamconf,oppteam,teamconfid,oppteamid,oppteamconf,oppteamconfid,predicted_winner,percentage_sim_win,message
-03/22/2024,Florida,95,SEC,Colorado,27,59,Pac 12,25,Florida,.61764705,Florida is predicted to win a very a close game.
-03/22/2024,Houston,121,Big 12,Longwood,7,154,Big South,10,Houston,.85882354,Houston is predicted to win by more than 10 points.
-03/22/2024,Florida Atlantic,93,AAC,Northwestern,2,220,Big 10,6,Florida Atlantic,.68470585,Florida Atlantic is predicted to win by less than 10 points.
-03/22/2024,UConn,62,Big East,Stetson,8,290,A-Sun,5,UConn,.95999998,UConn is predicted to win by more than 10 points.
-03/22/2024,Purdue,244,Big 10,Grambling,6,111,SWAC,32,Purdue,.98941177,Purdue is predicted to win by more than 10 points.
-03/22/2024,Auburn,19,SEC,Yale,27,362,Ivy,16,Auburn,.76705885,Auburn is predicted to win by less than 10 points.
-03/22/2024,Duke,80,ACC,Vermont,3,335,Am. East,4,Duke,.83411765,Duke is predicted to win by more than 10 points.
-03/22/2024,Wisconsin,357,Big 10,James Madison,6,140,Sunbelt,31,Wisconsin,.51999998,Wisconsin is predicted to win a very a close game.
-03/22/2024,Nebraska,203,Big 10,Texas A&M,6,300,SEC,27,Nebraska,.5,Nebraska is predicted to win a very a close game.
-03/22/2024,San Diego State,260,MWC,UAB,21,311,AAC,2,San Diego State,.82588238,San Diego State is predicted to win by more than 10 points.
-03/22/2024,Utah State,328,MWC,TCU,21,294,Big 12,7,TCU,.58588237,TCU is predicted to win a very a close game.
-03/23/2024,Illinois,127,Big 10,Duquesne,6,81,A-10,1,Illinois,.80470586,Illinois is predicted to win by more than 10 points.
-03/23/2024,Kansas,141,Big 12,Gonzaga,7,110,WCC,34,Gonzaga,.63058823,Gonzaga is predicted to win a very a close game.
-03/23/2024,Creighton,65,Big East,Oregon,8,231,Pac 12,25,Creighton,.74470586,Creighton is predicted to win by less than 10 points.
-03/23/2024,North Carolina,213,ACC,Michigan State,3,176,Big 10,6,Michigan State,.53294116,Michigan State is predicted to win a very a close game.
-03/23/2024,NC State,200,ACC,Oakland,3,223,Horizon,14,NC State,.68235296,NC State is predicted to win by less than 10 points.
-03/23/2024,Iowa State,134,Big 12,Washington State,7,349,Pac 12,25,Iowa State,.56588233,Iowa State is predicted to win a very a close game.
+03/22/2024,Florida,95,SEC,Colorado,27,59,Pac 12,25,Florida,.53294116,Florida is predicted to win a very a close game.
+03/22/2024,Houston,121,Big 12,Longwood,7,154,Big South,10,Houston,.90588236,Houston is predicted to win by more than 10 points.
+03/22/2024,Florida Atlantic,93,AAC,Northwestern,2,220,Big 10,6,Florida Atlantic,.55882353,Florida Atlantic is predicted to win a very a close game.
+03/22/2024,UConn,62,Big East,Stetson,8,290,A-Sun,5,UConn,.94,UConn is predicted to win by more than 10 points.
+03/22/2024,Purdue,244,Big 10,Grambling,6,111,SWAC,32,Purdue,.98588234,Purdue is predicted to win by more than 10 points.
+03/22/2024,Auburn,19,SEC,Yale,27,362,Ivy,16,Auburn,.8247059,Auburn is predicted to win by more than 10 points.
+03/22/2024,Duke,80,ACC,Vermont,3,335,Am. East,4,Duke,.79058826,Duke is predicted to win by more than 10 points.
+03/22/2024,Wisconsin,357,Big 10,James Madison,6,140,Sunbelt,31,Wisconsin,.51647061,James Madison is predicted to win a very a close game.
+03/22/2024,Nebraska,203,Big 10,Texas A&M,6,300,SEC,27,Texas A&M,.51529413,Texas A&M is predicted to win a very a close game.
+03/22/2024,San Diego State,260,MWC,UAB,21,311,AAC,2,San Diego State,.74588233,San Diego State is predicted to win by less than 10 points.
+03/22/2024,Utah State,328,MWC,TCU,21,294,Big 12,7,Utah State,.53294116,Utah State is predicted to win a very a close game.
+03/23/2024,Illinois,127,Big 10,Duquesne,6,81,A-10,1,Illinois,.59529412,Illinois is predicted to win a very a close game.
+03/23/2024,Kansas,141,Big 12,Gonzaga,7,110,WCC,34,Kansas,.64588237,Kansas is predicted to win a very a close game.
+03/23/2024,Creighton,65,Big East,Oregon,8,231,Pac 12,25,Creighton,.7235294,Creighton is predicted to win by less than 10 points.
+03/23/2024,North Carolina,213,ACC,Michigan State,3,176,Big 10,6,North Carolina,.62588233,North Carolina is predicted to win a very a close game.
+03/23/2024,NC State,200,ACC,Oakland,3,223,Horizon,14,NC State,.60352939,NC State is predicted to win a very a close game.
+03/23/2024,Iowa State,134,Big 12,Washington State,7,349,Pac 12,25,Iowa State,.61411762,Iowa State is predicted to win a very a close game.

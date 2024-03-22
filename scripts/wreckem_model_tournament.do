@@ -240,6 +240,7 @@ save `game_results', replace
 * Create tempfile for model simulations
 tempfile sims_stats
 save `sims_stats', replace
+drop if date ==.
 
 * Create the point differential variable and year/month
 gen point_differential = teamscore - oppscore
@@ -259,6 +260,7 @@ encode location, gen(loc)
 drop location
 rename loc location
 order location, after(upcoming_game)
+
 
 * Run the regression model
 reg point_differential l location adj_off adj_def oppadj_off oppadj_def net prevnet avgoppnetrank avgoppnet netsos netnonconfsos wl confrecord nonconferencerecord roadwl quadrant1 quadrant2 quadrant3 quadrant4 oppnet oppprevnet oppavgoppnetrank oppavgoppnet oppnetsos oppnetnonconfsos oppwl oppconfrecord oppnonconferencerecord opproadwl oppquadrant1 oppquadrant2 oppquadrant3 oppquadrant4 [iweight = weight] if upcoming_game ==0
@@ -316,7 +318,7 @@ replace predicted_winner = oppteam if mean_simulated_differential <0
 
 gen percentage_sim_win = percentage_team_wins
 replace percentage_sim_win = percentage_opp_wins if percentage_opp_wins > percentage_team_wins
-replace percentage_sim_win = .999 if percentage_sim_win == 1
+replace percentage_sim_win = .95 if percentage_sim_win == 1
 
 
 * Generate prediction message

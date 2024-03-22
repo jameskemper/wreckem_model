@@ -25,8 +25,8 @@ def scrape_ncaa_schedule(url):
         
         game_match = game_pattern.search(line)
         if game_match and current_date:
-            team1, team2 = game_match.group(2).strip(), game_match.group(4).strip()
-            schedule.append([current_date, team1, team2])
+            team, oppteam = game_match.group(2).strip(), game_match.group(4).strip()
+            schedule.append([current_date, team, oppteam])
     
     return schedule
 
