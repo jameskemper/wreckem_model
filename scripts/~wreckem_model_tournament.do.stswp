@@ -121,6 +121,7 @@ drop _merge
 
 * Merge adjusted opponent team stats with game results
 merge m:m oppteam oppteamid using `opp_adj_stats'
+
 drop _merge
 save `game_results', replace
 
