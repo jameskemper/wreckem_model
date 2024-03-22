@@ -509,6 +509,7 @@ Cs Northridge,68,Big West,11
 cs sacramento,69,Big Sky,9
 Cs Sacramento,69,Big Sky,9
 csu bakersfield,66,Big West,11
+CSU Bakersfield,66,Big West,11
 Csu Bakersfield,66,Big West,11
 csu northridge,68,Big West,11
 Csu Northridge,68,Big West,11
@@ -894,6 +895,7 @@ illinois-st,128,MVC,20
 Illinois-St,128,MVC,20
 illinois-state,128,MVC,20
 Illinois-State,128,MVC,20
+UIW,129,NA,22
 incarnate word,129,NA,22
 Incarnate Word,129,NA,22
 incarnate-word,129,NA,22
@@ -1076,6 +1078,7 @@ LIU Brooklyn,153,NEC,23
 liu brooklyn,153,NEC,23
 liu-brooklyn,153,NEC,23
 Liu-Brooklyn,153,NEC,23
+LMU (CA),153,NEC,23
 lmu (ca),157,WCC,34
 Lmu (Ca),157,WCC,34
 long beach st,152,Big West,11
@@ -1233,10 +1236,12 @@ merrimack,366,NEC,23
 Merrimack,366,NEC,23
 miami - florida,173,ACC,3
 Miami - Florida,173,ACC,3
+Miami (FL),173,ACC,3
 miami (fl),173,ACC,3
 Miami (Fl),173,ACC,3
 miami (fla.),173,ACC,3
 Miami (Fla.),173,ACC,3
+Miami (OH),173,ACC,3
 miami (oh),174,MAC,18
 Miami (Oh),174,MAC,18
 miami (ohio),174,MAC,18
@@ -1659,6 +1664,7 @@ Northern Colorado,193,Big Sky,9
 Northern Colorado,193,Big Sky,9
 northern colorado,193,Big Sky,9
 northern ill.,195,MAC,18
+NIU,195,MAC,18
 Northern Ill.,195,MAC,18
 northern illinois,195,MAC,18
 Northern Illinois,195,MAC,18
@@ -1923,6 +1929,7 @@ Saint Bonaventure,281,A-10,1
 saint francis (ny),282,NA,22
 Saint Francis (Ny),282,NA,22
 saint francis (pa),283,NEC,23
+Saint Francis (PA),283,NEC,23
 Saint Francis (Pa),283,NEC,23
 saint john`s,284,Big East,8
 Saint John`S,284,Big East,8
@@ -2291,6 +2298,7 @@ Stanford,289,Pac 12,25
 stanford,289,Pac 12,25
 st-bonaventure,281,A-10,1
 St-Bonaventure,281,A-10,1
+SFA,271,WAC,33
 stephen f. austin,271,WAC,33
 Stephen F. Austin,271,WAC,33
 Stephen F. Austin,271,WAC,33
@@ -2529,6 +2537,7 @@ uc-santa-barbara,263,Big West,11
 Uc-Santa-Barbara,263,Big West,11
 ucsb,263,Big West,11
 Ucsb,263,Big West,11
+UIC,126,MVC,20
 uic,126,MVC,20
 Uic,126,MVC,20
 uiq,129,NA,22
