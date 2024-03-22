@@ -24,6 +24,7 @@ save `opp_team_ids', replace
 
 * Import and clean schedule data for upcoming games
 import delimited "C:\Users\jkemper\OneDrive - Texas Tech University\Git\wreckem_model\Data\schedule.csv", varnames(1) clear 
+
 rename team1 team
 rename team2 oppteam
 
@@ -94,7 +95,7 @@ gen adj_def = def_coeff + `def_dif'
 
 * Combine adjusted stats with Team IDS
 merge m:m team using `team_ids'
-keep if _merge ==3
+drop if adj_off ==.
 drop _merge
 order teamid teamconf teamconfid , after(team)
 drop conference
