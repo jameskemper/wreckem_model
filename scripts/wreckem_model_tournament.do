@@ -29,7 +29,9 @@ gen new_date = date(date, "MDY")
 format %tdNN/DD/CCYY new_date
 drop date
 rename new_date date
-order date, before(team)
+order date, before(team1)
+
+
 
 gen location = "N"
 gen teamscore =.
@@ -369,3 +371,7 @@ local filepath2`"C:\Users\James Kemper\OneDrive - Texas Tech University\Git\wrec
 * Export the dataset to the constructed file path
 export delimited using "`filepath1'", replace
 export delimited using "`filepath2'", replace
+
+* Save temp_data and exit
+save "C:\Users\jkemper\Downloads\temp_data.dta", replace
+exit
