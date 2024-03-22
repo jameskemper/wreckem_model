@@ -95,7 +95,7 @@ gen adj_def = def_coeff + `def_dif'
 
 * Combine adjusted stats with Team IDS
 merge m:m team using `team_ids'
-keep if _merge ==3
+drop if adj_off ==.
 drop _merge
 order teamid teamconf teamconfid , after(team)
 drop conference
@@ -116,11 +116,11 @@ save `opp_adj_stats', replace
 
 * Merge adjusted team stats with game results
 use `game_results', clear
-merge m:m team teamid using `adj_stats'
+merge m:m teamid using `adj_stats'
 drop _merge
 
 * Merge adjusted opponent team stats with game results
-merge m:m oppteam oppteamid using `opp_adj_stats'
+merge m:m oppteamid using `opp_adj_stats'
 
 drop _merge
 save `game_results', replace
@@ -207,8 +207,9 @@ label variable quadrant4 "Quandrant 4 Win Loss %"
 
 * Combine adjusted stats with Team IDS
 merge m:m team using `team_ids'
-order teamid teamconf teamconfid, after(team)
+order team teamid, after(team)
 drop _merge
+drop if quadrant1 ==.
 
 * Create tempfile and save data
 tempfile NCAA_stats
@@ -216,8 +217,9 @@ save `NCAA_stats', replace
 
 * Merge NCAA_stats with gamne results and save game_results
 use `game_results', clear
-merge m:m team teamid using `NCAA_stats'
+merge m:m teamid using `NCAA_stats'
 drop _merge
+drop if date ==.
 save `game_results', replace
 
 * Create tempfile for opponent NCAA stats
@@ -233,8 +235,8 @@ save `opp_NCAA_stats', replace
 
 * Merge opp_NCAA_stats with gamne results and save game_results
 use `game_results', replace
-merge m:m oppteam oppteamid using `opp_NCAA_stats'
-keep if _merge ==3
+merge m:m oppteamid using `opp_NCAA_stats'
+drop if date ==.
 drop _merge
 drop oppconference conference
 save `game_results', replace

@@ -345,6 +345,7 @@ gen teamsids = teamid + oppteamid
 sort date teamsids
 duplicates drop date teamsids, force
 
+
 gen year = year(date)
 drop if year < 2024
 drop year teamsids
