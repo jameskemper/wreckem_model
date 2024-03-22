@@ -1,7 +1,7 @@
 ** Importing and creating tempfile for team IDS and conf
 
 * Import team ID dataset
-import delimited "https://raw.githubusercontent.com/jameskemper/wreckem_model/main/Data/MasterTeamSpellings.csv", clear
+import delimited "C:\Users\jkemper\OneDrive - Texas Tech University\Git\wreckem_model\Data\MasterTeamSpellings.csv", varnames(1) clear 
 
 * Rename variables to match "team"
 rename conference teamconf
@@ -46,6 +46,7 @@ save `upcoming_games', replace
 * Import season results
 import delimited "https://raw.githubusercontent.com/jameskemper/wreckem_model/main/Data/Results/game_results/before_tournament.csv", varnames(1) clear
 
+drop if oppscore ==.
 gen new_date = date(date, "MDY")
 format %tdNN/DD/CCYY new_date
 drop date
@@ -62,11 +63,11 @@ drop if date ==.
 drop _merge
 
 merge m:m team using `team_ids'
-keep if _merge ==3
+drop if date ==.
 drop _merge
 
 merge m:m oppteam using `opp_team_ids'
-keep if _merge ==3
+drop if date ==.
 drop _merge
 sort date
 
@@ -116,14 +117,13 @@ save `opp_adj_stats', replace
 * Merge adjusted team stats with game results
 use `game_results', clear
 merge m:m team teamid using `adj_stats'
-keep if _merge == 3
 drop _merge
 
 * Merge adjusted opponent team stats with game results
 merge m:m oppteam oppteamid using `opp_adj_stats'
-keep if _merge == 3
 drop _merge
 save `game_results', replace
+
 * Collect NCAA stats from dataset
 import delimited "https://raw.githubusercontent.com/jameskemper/wreckem_model/main/Data/NCAA_stats.csv", clear
 
@@ -206,7 +206,6 @@ label variable quadrant4 "Quandrant 4 Win Loss %"
 
 * Combine adjusted stats with Team IDS
 merge m:m team using `team_ids'
-keep if _merge == 3
 order teamid teamconf teamconfid, after(team)
 drop _merge
 
@@ -217,7 +216,6 @@ save `NCAA_stats', replace
 * Merge NCAA_stats with gamne results and save game_results
 use `game_results', clear
 merge m:m team teamid using `NCAA_stats'
-keep if _merge ==3
 drop _merge
 save `game_results', replace
 
@@ -347,8 +345,6 @@ duplicates drop date teamsids, force
 gen year = year(date)
 drop if year < 2024
 drop year teamsids
-
-
 
 * Export predictions (one works depending on desktop or latop)
 export delimited using "C:\Users\jkemper\OneDrive - Texas Tech University\Git\wreckem_model\Data\Predictions\predictions.csv", replace

@@ -1,8 +1,7 @@
 ** Importing and creating tempfile for team IDS and conf
 
 * Import team ID dataset
-import delimited "https://raw.githubusercontent.com/jameskemper/wreckem_model/main/Data/MasterTeamSpellings.csv", clear
-
+import delimited "C:\Users\jkemper\OneDrive - Texas Tech University\Git\wreckem_model\Data\MasterTeamSpellings.csv", varnames(1) clear 
 * Rename variables to match "team"
 rename conference teamconf
 rename confid teamconfid
