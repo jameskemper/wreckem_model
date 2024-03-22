@@ -1,0 +1,28 @@
+name: Auto Push on Change
+
+on:
+  push:
+    branches:
+      - main  # Assuming you want this to run on pushes to 'main'
+
+jobs:
+  push_changes:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0  # Fetches all history for all tags and branches
+
+    - name: Configure Git
+      run: |
+        git config --global user.name 'James Kemper'
+        git config --global user.email 'james.kemper@ttu.edu'
+      
+    - name: Make Changes (Example)
+      run: |
+        echo "Pushed wreckem data to github." >> message.txt
+        git add .
+        git commit -m "Automatically updated message.txt" || exit 0  # Commits changes if there are any
+
+    - name: Push Changes
+      run: git push
