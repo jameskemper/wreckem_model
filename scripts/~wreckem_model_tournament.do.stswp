@@ -46,6 +46,7 @@ save `upcoming_games', replace
 * Import season results
 import delimited "https://raw.githubusercontent.com/jameskemper/wreckem_model/main/Data/Results/game_results/before_tournament.csv", varnames(1) clear
 
+drop if oppscore ==.
 gen new_date = date(date, "MDY")
 format %tdNN/DD/CCYY new_date
 drop date
@@ -62,11 +63,11 @@ drop if date ==.
 drop _merge
 
 merge m:m team using `team_ids'
-keep if _merge ==3
+drop if date ==.
 drop _merge
 
 merge m:m oppteam using `opp_team_ids'
-keep if _merge ==3
+drop if date ==.
 drop _merge
 sort date
 
@@ -347,8 +348,6 @@ duplicates drop date teamsids, force
 gen year = year(date)
 drop if year < 2024
 drop year teamsids
-
-
 
 * Export predictions (one works depending on desktop or latop)
 export delimited using "C:\Users\jkemper\OneDrive - Texas Tech University\Git\wreckem_model\Data\Predictions\predictions.csv", replace
