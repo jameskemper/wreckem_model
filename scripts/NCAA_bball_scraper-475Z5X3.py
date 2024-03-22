@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import re
 import json
+import html  # Added import for html module
 
 # Function to fetch the schedule text from the webpage
 def fetch_schedule_text(url):
@@ -24,12 +25,12 @@ def extract_and_save_schedule_info(schedule_text, game_pattern1, game_pattern2, 
     date_str = f'March {day}, 2024'
     date = pd.to_datetime(date_str, format='%B %d, %Y')
     
-    # Extract team names
+    # Extract team names with html.unescape() applied
     matches_team1 = game_pattern1.findall(schedule_text)
-    team1_data = [{'Date': date, 'Team1': match[0].strip()} for match in matches_team1]
+    team1_data = [{'Date': date, 'Team1': html.unescape(match[0].strip())} for match in matches_team1]
 
     matches_team2 = game_pattern2.findall(schedule_text)
-    team2_data = [{'Team2': match.strip()} for match in matches_team2]
+    team2_data = [{'Team2': html.unescape(match.strip())} for match in matches_team2]
 
     # Combine team data
     combined_data = [{**team1, **team2} for team1, team2 in zip(team1_data, team2_data)]
