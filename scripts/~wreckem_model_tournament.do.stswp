@@ -2,6 +2,7 @@
 
 * Import team ID dataset
 import delimited "C:\Users\jkemper\OneDrive - Texas Tech University\Git\wreckem_model\Data\MasterTeamSpellings.csv", varnames(1) clear 
+
 * Rename variables to match "team"
 rename conference teamconf
 rename confid teamconfid
