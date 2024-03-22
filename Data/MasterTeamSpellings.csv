@@ -1,4 +1,4 @@
-ï»¿Team,TeamID,Conference,ConfID
+Team,TeamID,Conference,ConfID
 a&m-corpus chris,293,Southland,29
 A&M-Corpus Chris,293,Southland,29
 a&m-corpus christi,293,Southland,29
@@ -1937,8 +1937,8 @@ saint john`s,284,Big East,8
 Saint John`S,284,Big East,8
 saint joseph`s,285,A-10,1
 Saint Joseph`S,285,A-10,1
-saint josephâ€™s,285,A-10,1
-Saint Josephâ€™S,285,A-10,1
+saint joseph’s,285,A-10,1
+Saint Joseph’S,285,A-10,1
 saint joseph's,285,A-10,1
 Saint Joseph'S,285,A-10,1
 Saint Joseph's,285,A-10,1
@@ -1958,8 +1958,8 @@ saint mary's (ca),287,WCC,34
 Saint Mary'S (Ca),287,WCC,34
 saint peter`s,288,MAAC,17
 Saint Peter`S,288,MAAC,17
-saint peterâ€™s,288,MAAC,17
-Saint Peterâ€™S,288,MAAC,17
+saint peter’s,288,MAAC,17
+Saint Peter’S,288,MAAC,17
 saint peter's,288,MAAC,17
 Saint Peter'S,288,MAAC,17
 Saint Peter's,288,MAAC,17
@@ -2274,8 +2274,8 @@ st. francis-ny,282,NA,22
 St. Francis-Ny,282,NA,22
 st. john`s (ny),284,Big East,8
 St. John`S (Ny),284,Big East,8
-st. johnâ€™s,284,Big East,8
-St. Johnâ€™S,284,Big East,8
+st. john’s,284,Big East,8
+St. John’S,284,Big East,8
 st. john's,284,Big East,8
 St. John'S,284,Big East,8
 St. John's,284,Big East,8
