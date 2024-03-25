@@ -31,13 +31,14 @@ def scrape_ncaa_schedule(url):
     return schedule
 
 # URL of the NCAA schedule page
-url = "https://www.ncaa.com/news/basketball-men/mml-official-bracket/2024-03-22/latest-bracket-schedule-and-scores-2024-ncaa-mens-tournament"
+url = "https://www.ncaa.com/news/basketball-men/mml-official-bracket/2024-03-24/latest-bracket-schedule-and-scores-2024-ncaa-mens-tournament"
 
 # Scrape the schedule
 schedule = scrape_ncaa_schedule(url)
 
+
 # Save the schedule to a CSV file
 schedule_df = pd.DataFrame(schedule, columns=['Date', 'Team', 'OppTeam'])
-schedule_df.to_csv(r'C:\Users\jkemper\OneDrive - Texas Tech University\Git\wreckem_model\Data\schedule.csv', index=False)
+schedule_df.to_csv(r'C:\Users\James Kemper\OneDrive - Texas Tech University\Git\wreckem_model\Data\schedule.csv', index=False)
 
 print("Schedule information saved to CSV file successfully.")
