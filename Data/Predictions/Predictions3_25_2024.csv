@@ -1,9 +1,9 @@
 date,team,teamid,teamconf,oppteam,teamconfid,oppteamid,oppteamconf,oppteamconfid,predicted_winner,percentage_sim_win,message
-03/28/2024,Arizona,11,Pac 12,Clemson,25,54,ACC,3,Arizona,.67058825,Arizona is predicted to win by less than 10 points.
-03/28/2024,North Carolina,213,ACC,Alabama,3,4,SEC,27,North Carolina,.63198268,North Carolina is predicted to win by less than 10 points.
-03/28/2024,Iowa St.,133,Big 10,Illinois,6,127,Big 10,6,Illinois,.54705882,Illinois is predicted to win a very a close game.
-03/28/2024,UConn,62,Big East,San Diego St.,8,260,MWC,21,UConn,.66705883,UConn is predicted to win by less than 10 points.
-03/29/2024,Houston,121,Big 12,Duke,7,80,ACC,3,Duke,.55176473,Duke is predicted to win a very a close game.
-03/29/2024,Purdue,244,Big 10,Gonzaga,6,110,WCC,34,Purdue,.59764707,Purdue is predicted to win a very a close game.
-03/29/2024,Tennessee,296,SEC,Creighton,27,65,Big East,8,Creighton,.62352943,Creighton is predicted to win a very a close game.
-03/29/2024,Marquette,165,Big East,NC State,8,200,ACC,3,Marquette,.61235303,Marquette is predicted to win by less than 10 points.
+03/28/2024,Arizona,11,Pac 12,Clemson,25,54,ACC,3,Arizona,.6011765,Arizona is predicted to win a very a close game.
+03/28/2024,North Carolina,213,ACC,Alabama,3,4,SEC,27,Alabama,.53647059,Alabama is predicted to win a very a close game.
+03/28/2024,Iowa State,134,Big 12,Illinois,7,127,Big 10,6,Illinois,.65411764,Illinois is predicted to win a very a close game.
+03/28/2024,UConn,62,Big East,San Diego St.,8,260,MWC,21,UConn,.73764706,UConn is predicted to win by less than 10 points.
+03/29/2024,Houston,121,Big 12,Duke,7,80,ACC,3,Duke,.52823532,Duke is predicted to win a very a close game.
+03/29/2024,Purdue,244,Big 10,Gonzaga,6,110,WCC,34,Purdue,.52588236,Purdue is predicted to win a very a close game.
+03/29/2024,Tennessee,296,SEC,Creighton,27,65,Big East,8,Creighton,.59176469,Creighton is predicted to win a very a close game.
+03/29/2024,Marquette,165,Big East,NC State,8,200,ACC,3,Marquette,.69529414,Marquette is predicted to win by less than 10 points.

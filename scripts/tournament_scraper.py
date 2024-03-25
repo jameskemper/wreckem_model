@@ -39,6 +39,6 @@ schedule = scrape_ncaa_schedule(url)
 
 # Save the schedule to a CSV file
 schedule_df = pd.DataFrame(schedule, columns=['Date', 'Team', 'OppTeam'])
-schedule_df.to_csv(r'C:\Users\James Kemper\OneDrive - Texas Tech University\Git\wreckem_model\Data\schedule.csv', index=False)
+schedule_df.to_csv(r'C:\Users\jkemper\OneDrive - Texas Tech University\Git\wreckem_model\Data\schedule.csv', index=False)
 
 print("Schedule information saved to CSV file successfully.")
